@@ -1,0 +1,2145 @@
+en:
+  # Translate instances of time_ago_in_words() uses
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute ago" 
+      less_than_x_seconds:
+        one: "less than 1 second ago" 
+        other: "less than %{count} seconds ago" 
+      x_seconds:
+        one:  "1 second ago" 
+        other: "%{count} seconds ago" 
+      less_than_x_minutes:
+        one:  "less than a minute ago" 
+        other: "less than %{count} minutes ago" 
+      x_minutes:
+        one:  "1 minute ago" 
+        other: "%{count} minutes ago" 
+      about_x_hours:
+        one:  "about 1 hour ago" 
+        other: "about %{count} hours ago" 
+      x_days:
+        one:  "1 day ago" 
+        other: "%{count} days ago" 
+      about_x_months:
+        one:  "about 1 month ago"  
+        other: "about %{count} months ago" 
+      x_months:
+        one:  "1 month ago" 
+        other: "%{count} months ago" 
+      about_x_years:
+        one:  "about 1 year ago" 
+        other: "about %{count} years ago" 
+      over_x_years:
+        one:  "over 1 year ago" 
+        other: "over %{count} years ago" 
+      almost_x_years:
+        one:  "almost 1 year ago" 
+        other: "almost %{count} years ago" 
+
+  count_pluralization:
+    downloaded_x_times:
+      one:   Downloaded 1 time 
+      other: Downloaded %{count} times 
+
+  # Translate Kaminari's pagination text
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+
+  #Translations for Kaminari data entries being displayed
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found" 
+          one: "Displaying <b>1</b> %{entry_name}" 
+          other: "Displaying <b>all %{count}</b> %{entry_name}" 
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first} - %{last}</b> of <b>%{total}</b> in total" 
+  
+  month_list:
+    January: January
+    February: February
+    March: March
+    April: April
+    May: May
+    June: June
+    July: July
+    August: August
+    September: September
+    October: October
+    November: November
+    December: December
+
+  # Language translations for display in Language Settings
+  languages:
+    en: English
+    en_KKA: English (AU)
+    it_IT: Italian
+    pl_PL: Polish
+    fr_FR: French
+    de_DE: German
+    es_ES: Spanish
+    nl_NL: Dutch
+
+  activerecord:
+    errors:
+      models:
+        email_alias:
+          invalid: is not a valid email 
+  
+  privacy:
+    privacy: "Privacy"
+    acknowledgment: "Acknowledgment" 
+    vision: "Acknowledgment" 
+    marketing_centre: "Marketing MBE Center" 
+    marketing_mbe: "Marketing MBE Corporate" 
+    profiling: "Profiling" 
+    termination: "Third Party" 
+
+  industries: 
+    accounting: Accounting 
+    advertising: Advertising 
+    aerospace_defense: Aerospace & Defense 
+    agricultural_products: Agricultural Products 
+    air_freight_logistics: Air Freight & Logistics 
+    airlines: Airlines 
+    apparel_accessories_luxury_goods: Apparel, Accessories & Luxury Goods 
+    architecture: Architecture 
+    asset_management_custody_banks: Asset Management & Custody Banks 
+    automation: Automation 
+    automobiles_components: Automobiles & Components 
+    automotive: Automotive 
+    banking_mortgages: Banking & Mortgages 
+    banks: Banks 
+    beverages: Beverages 
+    biotechnology: Biotechnology 
+    broadcasting: Broadcasting 
+    building_materials: Building Materials 
+    business_supplies: Business Supplies 
+    capital_goods: Capital Goods 
+    casinos_gaming: Casinos & Gaming 
+    chemicals: Chemicals 
+    civil_engineering: Civil Engineering 
+    cloud_services: Cloud Services 
+    commercial_professional_services: Commercial & Professional Services 
+    commercial_printing: Commercial Printing 
+    commercial_services_supplies: Commercial Services & Supplies 
+    commodity_chemicals: Commodity Chemicals 
+    communications: Communications 
+    communications_equipment: Communications Equipment 
+    computer_hardware: Computer Hardware 
+    computer_networking: Computer Networking 
+    construction: Construction 
+    construction_engineering: Construction & Engineering 
+    construction_materials: Construction Materials 
+    consulting: Consulting 
+    consumer_discretionary: Consumer Discretionary 
+    consumer_durables_apparel: Consumer Durables & Apparel 
+    consumer_electronics: Consumer Electronics 
+    consumer_goods: Consumer Goods 
+    consumer_services: Consumer Services 
+    consumer_staples: Consumer Staples 
+    containers_packaging: Containers & Packaging 
+    corporate_business: Corporate & Business 
+    cosmetics: Cosmetics 
+    data_processing_outsourced_services: Data Processing & Outsourced Services  
+    design: Design 
+    distributors: Distributors  
+    diversified_capital_markets: Diversified Capital Markets 
+    diversified_consumer_services: Diversified Consumer Services 
+    diversified_financial_services: Diversified Financial Services 
+    diversified_financials: Diversified Financials 
+    diversified_support_services: Diversified Support Services 
+    diversified_telecommunication_services: Diversified Telecommunication Services  
+    education: Education 
+    education_services: Education Services 
+    electrical: Electrical 
+    electrical_equipment: Electrical Equipment 
+    electronic_equipment_instruments_components: Electrionic Equipment Instruments & Components 
+    electric_utilities: Electric Utilities 
+    energy: Energy 
+    energy_equipment_services: Energy Equipment & Services 
+    eyewear: Eyewear 
+    family_services: Family Services 
+    finance: Finance 
+    financial_services: Financial Services 
+    financials: Financials 
+    food: Food 
+    food_beverage_tobacco: Food Beverage & Tobacco 
+    food_staples_retailing: Food & Staples Retailing 
+    food_production: Food Production 
+    food_products: Food Products 
+    food_retail: Food Retail 
+    fundraising: Fundraising 
+    gas_utilities: Gas Utilites 
+    gold: Gold 
+    graphic_design: Graphic Design 
+    ground_transportation: Ground Transportation 
+    health_wellness: Health & Wellness 
+    health_care: Health Care 
+    health_care_equipment_services: Health Care Equipment & Services 
+    health_care_equipment_supplies: Health Care Equipment & Supplies 
+    health_care_providers_services: Heath Care Providers & Services 
+    health_care_services: Health Care Services 
+    home_improvement_retail: Home Improvement Retail 
+    homefurnishing_retail: Homefurnishing Retail 
+    hotels_restaurants_leisure: Hotels, Restaurants & Leisure 
+    household_personal_products: Household & Personal Products 
+    household_appliances: Household Appliances 
+    household_durables: Household Durables 
+    human_resource_employment_services: Human Resource & Employment Services 
+    independent_power_and_renewable_electricity_producers: Independant Power & Renewable Electricity Producers 
+    industrial_conglomerates: Industrial Conglomerates 
+    industrial_machinery: Industrial Machinery 
+    industrials: Industrials 
+    industrials_manufacturing: Industrials & Manufacturing 
+    information_technology: Information Technology 
+    insurance: Insurance 
+    integrated_telecommunication_services: Integrated Telecommunication Services 
+    internet: Internet 
+    internet_software_services: Internet Software & Services 
+    investment_banking_brokerage: Investment Banking & Brokerage 
+    it_services: IT Services 
+    legal_services: Legal Services 
+    leisure_facilities: Leisure Facilities 
+    leisure_products: Leisure Prodcuts 
+    life_sciences_tools_services: Life Sciences Tools & Services 
+    machinery: Machinery 
+    marine: Marine 
+    materials: Materials 
+    mechanical_engineering: Mechanical Engineering 
+    media: Media 
+    metals_mining: Metals & Mining 
+    movies_entertainment: Movies & Entertainment 
+    nanotechnology: Nanotechnology 
+    non_for_profit: Non for Profit 
+    oil_gas: Oil & Gas 
+    packaged_foods_meats: Packaged Foods & Meats 
+    paper_forest_products: Paper & Forest Products 
+    paper_products: Paper Products 
+    payments: Payments 
+    personal_products: Personal Products 
+    pharmaceuticals: Pharmaceuticals 
+    pharmaceuticals_biotechnology_life_sciences: Pharmaceuticals Biotechnology & Life Sciences 
+    photography: Photography  
+    professional_services: Professional Services 
+    public_relations: Public Relations 
+    publishing: Publishing 
+    real_estate: Real Estate 
+    religious_organisations: Religious Organisations 
+    renewable_electricity: Rewnewable Electricity 
+    renewable_energy: Renewable Energy 
+    research_consulting_services: Research & Consulting Services 
+    restaurants: Restaurants 
+    retailing: Retailing 
+    road_rail: Road & Rail 
+    semiconductors: Semiconductors 
+    semiconductors_semiconductor_equipment: Semiconductors & Semiconductor Equipment 
+    shipping_logistics: Shipping & Logistics 
+    software: Software 
+    software_services: Software & Services 
+    specialized_consumer_services: Specialized Consumer Services 
+    specialty_retail: Specialty Retail 
+    sporting_goods: Sporting Goods 
+    technology_hardware_storage_peripherals: Technology Hardware, Storage & Peripherals  
+    technology_hardware_equipment: Technology Hardware & Equipment 
+    telecommunication_services: Telecommunication Services 
+    textiles: Textiles 
+    textiles_apparel_luxury_goods: Textiles, Apparel & Luxury Goods 
+    tobacco: Tobacco 
+    trading_companies_distributors: Trading Companies & Distributors 
+    transportation: Transportation 
+    utilities: Utilities 
+    wireless_telecommunication_services: Wireless Telecommunication Services 
+  # END OF INDSTURY
+  
+  accept_eula: I accept the EULA.
+  account_contacts: Account Contacts 
+  accounts: Accounts 
+  accounts_payable_contact: Accounts Payable Contact 
+  accounts_tooltip: The Accounts filter will show all your accounts including accounts with an inactive status. 
+  acknowledgment: "Acknowledgment" 
+  action: Action 
+  active: Active 
+  active_accounts: Active Accounts 
+  active_accts_tooltip: The Active Accounts filter will show all your accounts that have had sales in the last 12 months.
+  active_contacts: Active Contacts 
+  active_contacts_tooltip: The Active Contacts filter are all the contacts that have had sales in the last 12 months. 
+  active_inquiries: Active Inquiries 
+  activites_due: Activites Due 
+  activity_feed: Activity Feed
+  activity_stage: Activity Stage 
+  activity_stage_status: Activity Stage Status 
+  actual: Actual 
+  actual_target: Actual / Target 
+  add: Add 
+  add_affiliation: Add Affiliation 
+  add_attachment: Add Attachment 
+  add_banner: Add Banner 
+  add_bookmark: Add Bookmark 
+  add_bookmarks: Add Bookmarks 
+  add_call: Add Call 
+  add_campaigns: Add Campaigns 
+  add_color: Add Color 
+  add_contact: Add Contact 
+  add_contacts: Add Contacts 
+  add_date: Add Date 
+  add_default_attachment: Add default attachment 
+  add_email_templates: Add Email Templates 
+  add_filter_rule: Add Filter Rule 
+  add_image: Add Image 
+  add_industry: Add Industry 
+  add_edit_industry: Add/edit Industry
+  add_meeting: Add Meeting 
+  add_new: Add New 
+  add_new_contact: Add New Contact 
+  add_note: Add Note 
+  add_results: Add Results 
+  add_rule: Add Rule 
+  add_selected_contacts: Add Selected Contacts 
+  add_tags: Add Tags 
+  add_tasks_calendar: Add tasks to my calendar 
+  add_template: Add Template 
+  add_to_google_calender: Add to Google Calender 
+  add_user: Add User 
+  address: Address 
+  address_1: Address 1
+  address_2: Address 2
+  address_single_line: Address Single Line
+  address_multi_line: Address Multi Line
+  address_phone_numbers: Address, Phone Numbers 
+  adjustments: Adjustments 
+  admin: Admin 
+  admin_dashboard: Admin Dashboard 
+  affiliations: Affiliations 
+  ago: ago 
+  all: All
+  all_contact_lists: All 
+  all_contacts: All 
+  all_customers: All
+  all_customers_tooltip: Shows the customers of the current MBE Center, plus all other customers of the other MBE Centers that are part of the Company
+  all_customer_contacts: All
+  all_customer_contacts_tooltip: Shows the contacts of the current MBE Center, plus all other contacts of the other MBE Centers that are part of the Company
+  all_for_date_range: All for Date Range 
+  all_in_italy: All in Italy
+  all_inquiries: All #"all" relative to inquries
+  all_locations: All Locations 
+  all_overdue: All Overdue 
+  all_shipments: All 
+  all_unpaid: All Unpaid 
+  all_users: All Users 
+  allow_auto_send: Allow Auto Send
+  allow_language_change: Allow Language Change 
+  allow_throttle_override: Allow Throttle Override 
+  allowed_file_formats: Allowed file formats 
+  alt_text: Alt Text 
+  amount: Amount 
+  any: Any 
+  ap_contact: AP Contact 
+  api_token: API Token 
+  apply: Apply
+  approval_address: Approval Address 
+  approval_address_explain: Approval reminders will be sent to the address 
+  approval_status: Approval Status
+  approve: Approve 
+  approved: Approved 
+  archive: Archive 
+  archived: Archived 
+  are_you_sure: Are you sure? 
+  ascending: Ascending 
+  asset_manager: Asset Manager 
+  assets: Assets 
+  assign: Assign
+  assign_contact_email: Please assign a contact matching the email 
+  assign_new_contact: Assign New Contact 
+  assigned_to: Assigned to 
+  assigned_user: Assigned User 
+  attach_invoice: Attach Invoice 
+  attach_to: Attach To 
+  attachment: Attachment 
+  attachments: Attachments 
+  attendees: Attendees 
+  attribution_range: Attribution Range 
+  authenticate: Authenticate 
+  authenticate_with: Authenticate with 
+  auto: Auto 
+  auto_approve_sends: Auto Approve Sends
+  auto_mapped: Auto Mapped 
+  av_per_day: Average Per Day
+  availability: Availability 
+  available_merge_fields: Available Merge Fields
+  available_merge_fields_tooltip_html: These fields will be automatically substituted when an email is sent.<br/><br/> Using the fallback syntax will replace the field with the set value when the field is empty.
+  available_to_everyone: Available to everyone 
+  average_invoice: Average Invoice
+  average_invoice_value: Average Invoice Value 
+  average_sales_new_account: Average Sales per New Account 
+  avg_daily_orders: Avg Daily Orders
+  avg_daily_shipments: Avg Daily Shipments 
+  avg_invoice: Avg Invoice 
+  avg_invoice_value: Average Invoice Value 
+  avg_shipments_day: Avg number of Shipments per day 
+  awaiting_details: Awaiting Details 
+  b2b: B2B 
+  back: Back 
+  back_to_dashboard: Back to Dashboard 
+  back_to_reports: Back to reports 
+  balance: Balance 
+  balance_due: Balance Due 
+  banner: Banner 
+  banner_instructions_html: Note If you select a banner please ensure you have the <strong class="text-muted">{{banner}}</strong> merge field in the email signature editor below. You can insert this using the banner button on the email signature editor. #?HTML
+  banner_link: Banner Link 
+  banner_path: Banner Path 
+  banners: Banners 
+  basic_details: Basic Details 
+  basic_information: Basic Information 
+  become_another_user: Become Another User 
+  before_due_date: Before due date
+  blue: Blue 
+  body: Body 
+  bold_blue: Bold Blue 
+  bold_green: Bold Green 
+  bold_red: Bold Red 
+  bounced: Bounced 
+  bounced_plural: Bounced 
+  budget: Budget 
+  budget_total: Budget Total 
+  budgets: Budgets 
+  bulk_action: Bulk Action 
+  bulk_email: Bulk Email 
+  bulk_remap: Bulk Remap 
+  bulk_select_location: Bulk Select Location 
+  bulk_update: Bulk Update
+  bulk_update_sales_activity: Bulk Update Sales Activity 
+  business_hours: Business Hours 
+  business_plan: Business Plan
+  business_plan_desc: Create and update business plan and goals
+  button_call: "Button Call"
+  button_call_contact: "Button Call Contact"
+  button_view_invoice: "Button View Invoice"
+  buy_frequency: Buy frequency 
+  call: Call 
+  call_contact: Call Contact
+  call_needs_contact_html: To create a new <strong>Call</strong> please assign a contact. 
+  caller: Caller 
+  calls: Calls 
+  calls_made: Calls Made 
+  campaign_duplicate_success: Campaign was successfully duplicated
+  campaign_email_failure: "Campaign %{name} has had %{number} emails fail to be delivered. Click below to visit the campaign results and fix these." 
+  campaign_failed_checklist: This campaign does not pass the below checklist. Please correct these to continue. 
+  campaign_opens: Campaign Opens 
+  campaign_options: Campaign Options 
+  campaign_send_in_progress: Campaign send in progress. 
+  campaign_settings: Campaign Settings 
+  campaign_suspended: Campaign Suspended 
+  campaign_was_not_sent: Campaign was not sent 
+  campaign_unavailable_fields: "Notice: Estimate and Invoice merge fields are unavailable for campaigns."
+  campaigns: Campaigns 
+  campaigns_due: Campaigns Due
+  cancel: Cancel 
+  cancel_import: Cancel Import 
+  cancelled: Cancelled 
+  cancelled_plural: Cancelled
+  cash_sales: Cash Sales 
+  categories: Categories 
+  category: Category 
+  caution_no_closeout: "Caution: No Closeout for last month. Sales will accumulate across months until you closeout"
+  centre_contact: Center Contact 
+  centre_name: Center Name 
+  centre_number: Center Number 
+  change: Change 
+  change_contact: Change Contact 
+  change_lead_type: Change Lead Type 
+  change_password: Change password 
+  changes_required: Changes Required 
+  changes_take_effect_html: Changes will take effect <strong class="text-blue">after 5 minutes</strong> 
+  check_status: Check Status
+  check_general_settings: Check general settings
+  choose_file: Choose File 
+  choose_list: Choose List 
+  clear: Clear 
+  clear_activity: Clear Activity
+  clear_all: Clear All 
+  clear_date: Clear Date 
+  clear_exclusions_list: Clear Exclusion List on Send 
+  clear_filters: Clear Filters 
+  clear_template: Clear Template 
+  clicked_a_link: Clicked a link 
+  clock_format: Clock format
+  close: Close
+  closed_out_sale: closed out sale 
+  cogs: COGS
+  cogs_color_threshold: COGS Color Threshold 
+  cogs_ly: COGS LY 
+  comment: Comment 
+  comment_created_by_html: Comment <span class="text-muted">created by</span> 
+  comments: Comments 
+  companies: Companies
+  company_phone: Company Phone
+  company_retention_tooltip: (Active Customers Current Year - New Customers Current Year ) / (Active Customers Prior Year) * 100  
+  company_vat: Company VAT
+  complete: Complete 
+  complete_task: Complete Task 
+  completed: Completed 
+  completed_at: Completed at 
+  completed_on: Completed on 
+  completed_tasks: Completed #completed relative to tasks
+  completion_time: Completion Time
+  compute: Compute 
+  configure_identities: Configure identities 
+  confirm: Confirm 
+  confirm_delete: Are you sure you want to delete this? 
+  confirm_html: Confirm <strong>Unsubscribe</strong> 
+  connect_email_google_apps: Connect your email to Google Apps
+  connected: Connected 
+  connection: Connection 
+  consent_confirmation: Consent Confirmation
+  contact: Contact
+  contact_autocreated_hub: Contact auto-created from MBE Hub data 
+  contact_created_date: Contact Created Date
+  contact_date: Contact Date 
+  contact_email: Contact Email
+  contact_first_name: Contact First Name
+  contact_first_sale_date: Contact First Sale Date
+  contact_growth: Contact Growth
+  contact_hasnt_ordered: Contact hasn't ordered in 30 days
+  contact_info: Contact Info 
+  contact_it_setup_center_name: Contact your IT support team to update your Center Name 
+  contact_it_setup_center_number: Contact your IT support team to update your Center Number 
+  contact_it_to_setup: Contact your IT support team to update
+  contact_last_name: Contact Last Name
+  contact_list_exclusions_html: Contact lists exclude any contacts that are part of the <span class="label label-blue-lighter">"Do Not Mail"</span> or <span class="label label-blue-lighter">"Unsubscribe"</span> lists. 
+  contact_list_export: Contact List Export 
+  contact_list_privacy_tooltip: This contact list does not contain a privacy setting, be sure that you have set up your contact list with the correct permissions.
+  contact_lists: Contact Lists 
+  contact_name: Contact Name 
+  contact_phone: Contact phone
+  contact_ranking: Contact Ranking
+  contact_records: Records
+  contact_us: Contact Us 
+  contacts: Contacts 
+  contacts_excluded: These contacts will be excluded due to recently being sent a marketing email. 
+  context: Context 
+  conversion_progress: Conversion Progress 
+  convert_time: Convert Time 
+  convert_to_lead: Convert to Lead 
+  copy_to_new: Copy To New 
+  corrections: Corrections 
+  could_not_fetch_asset: Could not fetch asset
+  could_not_fetch_job: Could not fetch job ticket
+  could_not_fetch_url: Could not fetch URL
+  could_not_fetch_pdf_url: Could not fetch PDF URL
+  count: Count 
+  country: Country 
+  courier: Courier 
+  courier_service: Courier Service 
+  courier_tracking: Courier Tracking 
+  create: Create 
+  create_edit_budgets: Create and edit budgets 
+  create_first_email: Create your First Email 
+  create_lead: Create Lead 
+  create_meeting: Create Meeting 
+  create_new: Create New 
+  create_new_stage: Create New Stage
+  create_quote_inquiry: Create Inquiry 
+  create_task: Create Task 
+  created: Created
+  created_by: Created by 
+  created_on: created on 
+  creation: Creation 
+  credit_note: Credit Note 
+  csv_template_format: CSV template format 
+  cumulative_invoice: Cumulative Invoice 
+  currency: Currency 
+  currency_explanation: This will update units of all figures across the app. 
+  current: Current
+  current_financial_year: Current Financial Year
+  current_month: Current Month 
+  current_month_sales: Current month sales
+  current_orders: Current Orders 
+  current_owner: Current Owner 
+  current_sales: Current Sales 
+  current_shipments: Current Shipments 
+  current_target: Current target
+  current_year: Current Year 
+  currently_selected: Currently Selected 
+  custom: Custom 
+  custom_date: Custom Date
+  custom_editor_colors: Custom Editor Colors 
+  custom_fields: Custom Fields 
+  daily: Daily 
+  daily_target: Daily Target 
+  dashboard: Dashboard 
+  data_quality: Data Quality 
+  data_quality_explain: This report relies on the proper tagging of data in your system. 
+  data_quality_issue: To produce an accurate report please Fix the Issues mentioned below  
+  date_created: Date Created 
+  date_of_birth: Date of Birth 
+  date_range: Date Range 
+  daterange: Date Range 
+  date_today: Date Today
+  date_plus_30: Date Plus 30
+  dates: Dates 
+  day: Day 
+  days: Days
+  days_since_last_sale_date: Days Since Last Sale Date
+  days_since_single_sale: Days Since Single Sale
+  debit_note: Debit Note 
+  default: Default 
+  default_assigned_user: Default Assigned User 
+  default_banner: Default Banner 
+  default_email_banner: Default Email Banner 
+  default_email_template: Default Email Template 
+  default_email_test_send: Default email to test send 
+  default_for_contacts: Default for Contacts 
+  default_for_shipments: Default for Shipments
+  default_for_enterprises: Default for Enterprises  
+  default_for_production_location: Default for production location 
+  default_for_sales: Default for Sales 
+  default_template_info_html: Set <strong>"%{name}"</strong> as the default template for 
+  deferred: Deferred 
+  deferred_sales: Deferred Sales 
+  delete: Delete 
+  delete_confirm_x: "Are you sure you want to delete: %{name}?" 
+  delete_lead_message: The lead will be permanently DELETED. Are you sure you want to proceed? 
+  deleted: Deleted 
+  delinquent: Delinquent 
+  deliverable: Deliverable
+  delivered_deferred: Delivered #relative to deferred
+  delivered_shipments: Delivered #relative to shipments
+  delivery: Delivery 
+  delivery_date: Delivery Date
+  descending: Descending 
+  description: Description 
+  details: Details 
+  disable_approval_notifications: Disable approval notifications 
+  disable_auto_send: Disable Auto Send 
+  dismiss: Dismiss
+  display_name: Display Name 
+  do_not_mail: Do Not Mail 
+  do_not_mail_reason: Do Not Mail Reason 
+  do_not_sms: Do not SMS
+  document_notes: Document Notes 
+  domain: Domain
+  domestic: Domestic 
+  download: Download 
+  download_invoice: Download Invoice
+  dr: Dr. 
+  draft: Draft 
+  due: Due 
+  due_date: Due Date
+  duplicate: Duplicate 
+  edit: Edit 
+  edit_contact: Edit Contact 
+  edit_contact_list: Edit Contact List 
+  edit_filter_rule: Edit Filter Rule 
+  edit_holiday: Edit Holiday 
+  edit_identity: Edit Identity 
+  edit_lead_stage: Edit Lead Stage 
+  edit_lead_type_name: Edit Lead Type Name
+  edit_marketing_group: Edit Marketing Group 
+  edit_meeting: Edit Meeting 
+  edit_news: Edit news 
+  edit_personal_info: Edit Personal Info 
+  edit_phone: Edit Phone
+  edit_phone_call: Edit Phone Call 
+  edit_sales_activity: Edit Sales Activity 
+  edit_sales_rep: Edit User
+  edit_tag: Edit Tag 
+  edit_taken_by: Edit Taken By 
+  edit_task: Edit Task 
+  edit_task_type: Edit Task Type
+  edit_user: Edit User 
+  editable: EDITABLE 
+  editing_entry_html: Editing <span id="target_count" class="text-blue">1 entry</span> 
+  eight_plus_characters: 8+ characters 
+  email: Email
+  email_address: Email Address
+  email_alias: Email Alias 
+  email_aliases: Email Aliases 
+  email_aliases_info: We recommend you test your alias after creating to ensure it is sending correctly. If you have set the wrong alias the email from address will default to your primary email address. 
+  email_banner_settings: Email Banner Settings 
+  email_banners: Email Banners 
+  email_blacklist: Email Blacklist 
+  email_blacklist_description: Insert a list of email addresses or domains to prevent from showing emails with that address. One entry per line. 
+  email_campaigns: Email Campaigns 
+  email_configuration: Email Configuration 
+  email_failed_send: Email failed to send to 
+  email_marketing: Marketing Email 
+  email_notifications_on_update: Receives email notifications when this ticket is updated. 
+  email_signature: Email Signature 
+  email_status: Email Status
+  email_template_is_archived: This email template is currently archived. 
+  email_template_settings: Email Template Settings 
+  email_templates: Email Templates 
+  email_too_often: You are emailing me too often 
+  email_validation: Email Validation 
+  email_viewed_by: Email viewed by 
+  email_was_test: This email was sent as a test and cannot be viewed. 
+  emails: Emails 
+  emails_not_opened: Emails haven't been opened yet! 
+  emails_opened: Emails Opened 
+  emails_sent: Emails Sent 
+  employees: Employees 
+  empty: Empty
+  empty_attachment: Empty Attachment
+  enable_auto_send: Enable Auto Sent 
+  enable_eula: Enable EULA Agreement for Users 
+  enable_pay_button: Enable Sales Portal Pay Button
+  end: End 
+  end_date: End Date 
+  end_time: End Time 
+  ensure_banner_merge_field: "Note: If you select a banner please ensure you have the {{banner}} merge field in the email signature editor below. You can insert this using the banner button on the email signature editor." 
+  enter_custom_message: Enter a custom message 
+  enter_estimated_value: Enter estimated value 
+  enter_task_type_name: Enter a task type name 
+  enterprise: Enterprise
+  enterprise_budget: Enterprise Budget 
+  enterprise_campaign: Enterprise Campaign 
+  enterprise_contacts_default: Enterprise Contacts Default 
+  enterprise_holidays: Enterprise Holidays (Global) 
+  enterprise_management: Enterprise Management 
+  enterprise_sales_default: Enterprise Sales Default 
+  enterprise_test_email: Enterprise Test Email
+  enterprise_user: Enterprise User 
+  error_processing_pdf: There was an error processing this PDF 
+  esq: Esq. 
+  estimate: Estimate 
+  estimate_in_progress: Estimate in progress 
+  estimated_spent: Estimated Spent 
+  estimates: Estimates
+  estimates_follow_up: Estimates Due for Follow up
+  eula: End User Licence Agreement
+  eula_explanation: Users will be forced to agree before using the app. 
+  eula_settings: EULA Settings 
+  every: Every
+  everyone: Everyone 
+  exact_day: Exact Day
+  exclude: Exclude
+  exclude_campaigns: Exclude Campaigns 
+  exclude_contacts: Exclude Contacts 
+  exclude_non_sales: Exclude non sales 
+  exclude_results: Exclude Results 
+  exclude_selected_campaigns: Exclude Selected Campaigns 
+  exclude_selected_contacts: Exclude Selected Contacts 
+  excluded_campaigns: Excluded Campaigns 
+  excluded_contacts: Excluded Contacts 
+  exclusions: Exclusions 
+  exit: Exit 
+  export: Export 
+  export_all: Export All 
+  export_selected: Export Selected
+  export_combined: Export Combined
+  export_csv: Export CSV 
+  external_url: External URL 
+  failed: Failed 
+  failed_to_send: Failed to Send 
+  fallback: Fallback
+  fallback_default_template: Fallback Default Template 
+  fax: Fax 
+  female: Female 
+  field: Field 
+  field_name: Field name 
+  file_exceeds_size: File exceeds maximum size 
+  file_name: File Name 
+  file_type_not_allowed: File type not allowed
+  filter: Filter  
+  filter_by: Filter by 
+  filter_by_role: Filter by Role 
+  filter_by_tags: Filter by Tags
+  filter_missing: Filter Missing 
+  final_comment: Final Comment 
+  finance_charges: Finance Charges 
+  financial_year: Financial Year 
+  first_name: First Name 
+  first_or_last_name: first or last name 
+  first_sale: First Sale 
+  first_sale_date: First Sale Date
+  fix: Fix 
+  fix_contacts: Fix Contacts 
+  fix_now: Fix Now 
+  fix_sales_locations: Fix Sales Locatons 
+  fixed: Fixed 
+  follow_up: Follow up
+  follow_ups: Follow Ups 
+  frequency: Frequency
+  from: From 
+  frozen: Frozen 
+  future: Future 
+  g_p_delivery: G&P Delivery 
+  gender: Gender 
+  general: General 
+  generate: GENERATE 
+  global: Global 
+  global_banner: Global Banner 
+  global_campaign: Global Campaign 
+  global_hide: Global Hide 
+  global_holidays: Global Holidays 
+  global_lead_type: Global Lead Type
+  global_task_type: Global Task Type 
+  global_unhide: Global Unhide 
+  globally_visible: Globally Visible 
+  gmail_sync_modal_title: Google data to send and receive emails 
+  gray: Gray 
+  green: Green 
+  gross_total: Gross Total 
+  group_name: Group Name 
+  group: Group 
+  groups: Groups 
+  growth: Growth 
+  growth_cummulative: Growth
+  growth_rolling_12: Growth Rolling 12 months 
+  guess: Guess 
+  hard_bounced: Hard Bounced 
+  has_attachment: Has Attachment 
+  help: Help 
+  hidden: Hidden 
+  hide: Hide 
+  hide_from_ui: Hide from UI 
+  hide_reports_tab: Hide reports tab 
+  hide_sale: Hide Sale 
+  hide_shipment: Hide Shipment 
+  hide_task_type: Hide Task Type 
+  hide_leads_dashboard: Hide Leads Dashboard
+  highest: Highest 
+  highest_monthly_sales: Highest Monthly Sales 
+  holiday: Holiday 
+  holiday_name: Holiday Name 
+  holidays: Holidays 
+  home: Home
+  hour: Hour
+  hours: Hours
+  identities: Identities 
+  image: Image 
+  image_link: Image Link 
+  image_path: Image Path 
+  images: Images 
+  import: Import 
+  import_leads: Import Leads 
+  import_leads_message: If your list contains punctuation or special characters you must save it in UTF-8 csv format as otherwise, they will cause the upload to fail.
+  in_development: In development 
+  in_progress: In Progress 
+  in_transit: In Transit 
+  inactive: Inactive 
+  include: Include
+  include_roboto_font_default: Include Roboto Font as Default 
+  individual_buyer: Individual Buyer 
+  industry: Industry 
+  influencer: Influencer 
+  info: Info 
+  information: Information 
+  inquiries: Inquiries 
+  inquiries_section: Inquiries
+  inquiry: Inquiry 
+  inquiry_description: Inquiry Description 
+  inquiry_not_active_html: This inquiry is not active yet. You need to <strong>'Save Changes'</strong> to make it active.
+  inquiry_phone_optional: Inquiry Phone (optional) 
+  insert_selected: Insert Selected 
+  interests: Interests 
+  internal_notes: Internal Notes 
+  invalid: Invalid
+  invalid_asset: Invalid Asset
+  invalid_context: Invalid Context
+  invalid_file: Invalid File
+  invalid_imap_settings: Invalid IMAP Settings 
+  invalid_smtp_settings: Invalid SMTP Settings 
+  invalid_url: Invalid URL
+  invoice: Invoice 
+  invoice_address: Invoice Address 
+  invoice_amount: Invoice Amount
+  invoice_amount_due: Invoice Amount Due 
+  invoice_contact: Invoice Contact 
+  invoice_correction: Invoice Correction 
+  invoice_date: Invoice Date
+  invoice_description: Invoice Description
+  invoice_not_found: Invoice not found
+  invoice_number: Invoice Number 
+  invoice_pay_url: Invoice Pay URL 
+  invoice_type: Invoice Type 
+  invoiced_sales: Invoiced 
+  invoiced_shipments: Invoiced
+  invoices: Invoices 
+  invoices_per_day: Invoices Per Day 
+  invoices_to_be_issued: Invoices to be Issued
+  ip_instructions: Only allow access from these IP addresses (Comma seperated list, leave blank to allow any ip address) 
+  ip_whitelist: IP Whitelist 
+  is_not_valid: is not valid 
+  job_ticket_invalid_file: Job ticket returned invalid file
+  job_title: Job Title 
+  jr: Jr. 
+  jump_to: Jump to 
+  key_accounts: Key Accounts 
+  ladders: Rankings
+  language_settings: Language Settings 
+  lapsed: Lapsed 
+  lapsed_companies: Lapsed
+  lapsed_contacts: Lapsed contacts (1 to 2 years) 
+  lapsed_contacts_tooltip: Contacts who's last picked up sale was 1 to 2 years ago 
+  last: Last 
+  last_12_months: Last 12 months 
+  last_contact: Last Contact 
+  last_contact_date: Last Contact Date 
+  last_financial_year: Last Financial Year
+  last_modified: Last Modified 
+  last_month: Last Month
+  last_name: Last Name 
+  last_order: Last Order 
+  last_order_30_days: Last order +30 Days 
+  last_order_date: Last Order Date 
+  last_pickup_date: Last Pickup Date 
+  last_sale: Last Sale 
+  last_sale_date: Last Sale Date 
+  last_send: Last send 
+  last_sent: Last Sent 
+  last_validated_on: Last validated on %{date}
+  last_x_days: #OPTIONS
+    one: "Last Day"
+    other: "Last %{count} Days"
+  last_x_months:
+    one: "Last Month"
+    other: "Last %{count} Months"
+  last_year: Last Year 
+  last_year_sales: Last Year Sales
+  last_year_shipments: Last Year Shipments
+  last_year_actual: Last Year Actual 
+  lead: Lead 
+  lead_source: Lead Source 
+  lead_stage: Lead Stage 
+  lead_stages: Lead Stages 
+  lead_status: Lead Status 
+  lead_type: Lead Type 
+  lead_type_draft: This lead type is a DRAFT
+  lead_type_not_visible: This lead type is NOT visible
+  lead_type_stage: Lead Type/Stage 
+  lead_types: Lead Types 
+  lead_sources: Lead Sources
+  leads: Leads
+  leads_map_company_contacts: If company name exists contacts will be created/mapped to the existing company.
+  leads_company_same_name: Company Names with same name will be treated as a single company.
+  leads_manager: Leads Manager 
+  leads_targets: Leads Targets 
+  link_url: Link URL 
+  links_clicked: Links Clicked 
+  list_name: List Name 
+  live: Live 
+  live_version: Live Version
+  load_targets: Load Targets 
+  loading: LOADING 
+  local: Local 
+  local_hide: Local Hide 
+  local_unhide: Local Unhide 
+  locally_visible: Locally Visible 
+  location: Location 
+  locations: Locations
+  lock: Lock
+  locked: Locked 
+  lock_set_user_default: Lock set user default for user
+  logout: Logout 
+  lost: Lost 
+  lost_contacts: Lost Contacts 
+  lost_contacts_tooltip: The Lost Contacts filter will show contacts that have had sales last year but no sales in the last 12 months. 
+  lost_reason: Lost Reason 
+  ly: LY 
+  main_navigation: Main Navigation 
+  main_phone: Main Phone 
+  make_visible_all_enterprises: Make this visible across all enterprises? 
+  male: Male 
+  manage: Manage 
+  manage_banners: Manage Banners 
+  manage_campaigns: Campaigns
+  manage_email_banners: Manage Email Banners 
+  manage_email_templates: Manage email templates 
+  manage_holidays: Manage Holidays 
+  manage_lead_types: Manage lead types 
+  manage_marketing_groups: Manage Marketing Groups 
+  manage_security_settings: Manage security settings 
+  manage_sms_templates: Manage SMS Templates 
+  manage_tags: Manage Tags 
+  manage_tags_for: Manage Tags for %{name} 
+  manage_task_types: Manage task types 
+  manage_tenant_fields: Manage Tenant Fields 
+  manage_users: Manage Users 
+  manual_contact_exclusions: Manual Contact Exclusions 
+  manual_contacts: Manual Contacts 
+  manual_entries: Manual Entries 
+  manual_entry: Manual Entry 
+  map_to: Map to 
+  map_to_user: Map to User 
+  mapped: Mapped 
+  mapped_to: Mapped to 
+  mark_all_as_read: Mark All as Read 
+  mark_in_development: Mark In Development 
+  mark_live: Mark Live 
+  markdown: Markdown 
+  marketing: Marketing
+  marketing_activity: Marketing Activity 
+  marketing_center: "Marketing MBE Center" 
+  marketing_corporate: "Marketing MBE Corporate" 
+  marketing_name: Marketing Name 
+  markups: Markups 
+  matches_found: Matches found 
+  matching_contacts: Matching contacts
+  matching_first_name: matching first name 
+  max_file_size: Max file size 
+  max_image_dimensions: Max image dimensions 
+  mbe_center: MBE Center
+  mbe_disclaimer: "Warning: even if SalesSpeak accepts other e-mail domains, successful email sends will be guaranteed only by using an e-mail address with the official domain @mbe. In case of use of other domains (eg, @gmail.com, @ outlook.com, etc.), MBE cannot guarantee that emails will not be intercepted as spam by the servers of the recipient email addresses."  
+  mbe_tracking_number: MBE Tracking Number
+  md: M.D. 
+  meeting: Meeting 
+  meeting_description: Meeting Description 
+  meetings: Meetings 
+  meetings_attended: Meetings Attended 
+  menu: Menu 
+  message: Message 
+  message_size_constraint: The total message size cannot exceed 35MB when using direct attachments. 
+  meta_tags: META TAGS 
+  minimum_days_between_marketing_emails: Minimum Days Between Marketing Email Sends (Throttle) 
+  minute: Minute
+  minutes: Minutes
+  miss: Miss 
+  missing: Missing
+  missing_attachment: Missing Attachment
+  missing_contact_lead: Missing Contact Lead 
+  missing_name: Missing Name 
+  mobile: Mobile 
+  monday: Monday
+  month: Month
+  month_target: Month Target
+  month_to_day: Month to Date 
+  monthly: Monthly 
+  monthly_sales_summary: Monthly Sales Summary 
+  monthly_target: Monthly Target
+  months: Months
+  mr: Mr. 
+  mrs: Mrs. 
+  ms: Ms 
+  mtd: MTD 
+  multiple_purchases: Multiple Purchases
+  my_bookmarks: My Bookmarks 
+  my_business: My Business 
+  my_contacts: My Contacts
+  my_contacts_tooltip: Show only the contacts of the current MBE Center
+  my_customers: My Customers
+  my_customers_tooltip: Show only customers from the current MBE Center
+  my_dashboard: My Dashboard
+  my_test_email: My Test Email 
+  na: n/a 
+  name: Name 
+  name_number_address: name, number or address 
+  name_or_number: Name or Number 
+  name_subject_body: name, subject, or body 
+  nearest_business_day: Nearest Business Day
+  need_add_email_signature: Need to add an email signature 
+  need_add_test_email: Need to add a test email address 
+  need_link_google_apps: Need to link Google Apps 
+  net_total: Net Total
+  network_average: Network Average 
+  neutral: Neutral 
+  never: Never 
+  never_downloaded: Never Downloaded 
+  never_signed_up: I never signed up for this email 
+  new: New 
+  new_attachment: New Attachment 
+  new_budget: New Budget 
+  new_call: Phone
+  new_campaign: New Campaign 
+  new_category: New Category 
+  new_companies_multiple_purchase: New companies multiple purchase
+  new_companies_multiple_purchase_tooltip: New companies with more than 1 invoice in the last 12 months
+  new_contact_last_year: New contact in the last year 
+  new_contact_list: New Contact List 
+  new_contacts: New Contacts 
+  new_customers_avg_invoice_value: New customers average invoice value 
+  new_email: New Email 
+  new_email_alias: New Email Alias 
+  new_estimates: New Estimates
+  new_group: New Group 
+  new_holiday: New Holiday 
+  new_identity: New Identity 
+  new_interest: New Interest 
+  new_invoices: New Invoices 
+  new_lead: New Lead 
+  new_lead_stage: New Lead Stage 
+  new_lead_type: New Lead Type 
+  new_marketing_group: New Marketing Group 
+  new_meeting: New Meeting 
+  new_news: New News 
+  new_note: New Note 
+  new_password: New Password 
+  new_password_must_contain: New Password must contain 
+  new_phone: New Phone 
+  new_sales_pct: New Sales as %
+  new_shipments: New Shipments 
+  new_status: New Status 
+  new_tag: New Tag 
+  new_task: New Task 
+  new_task_type: New Task Type 
+  new_template: New Template 
+  new_user: New User   
+  news: News 
+  next: Next 
+  next_activity: Next Activity 
+  next_activity_due: Next Activity Due 
+  next_activity_type: Next Activty Type 
+  next_send: Next Send 
+  next_year: Next Year 
+  no_activity: No Activity 
+  no_added_contacts: You haven't added any contacts. 
+  no_budget: No Budget 
+  no_calls: No Calls
+  no_calls_added: No calls have been added 
+  no_campaign_exclusions: No Campaign Exclusions 
+  no_campaign_sent_for_contact: No campaigns have been sent for this contact 
+  no_campaigns_to_preview: No Campaigns to Preview 
+  no_category: No category 
+  no_contact_assigned: No Contact Assigned 
+  no_contacts_added: You haven't added any contacts 
+  no_current_orders: No current orders 
+  no_current_shipments: No Current Shipments 
+  no_data_available: No data available 
+  no_due_date: No Due Date 
+  no_email: No Email 
+  no_email_activity: No email activity 
+  no_email_inquiry: No email in inquiry 
+  no_email_template_added: No Email Templates Added 
+  no_excluded_campaigns: No Excluded Campaigns 
+  no_loc_defined: No location defined 
+  no_loc_selected: No Locations Selected 
+  no_location: No Location 
+  no_locations: No Locations
+  no_manual_campaigns_added: No Manual Campaigns Added Yet 
+  no_marketing_groups_found: No Marketing Groups Found 
+  no_matching_contacts: No matching contacts. 
+  no_meeting_scheduled: No Meeting scheduled 
+  no_name: No Name 
+  no_notes: No notes
+  no_notes_added: No notes have been added 
+  "no": "No" 
+  no_pdf_preview: No PDF preview available 
+  no_pdf_for_context: No PDF for this context
+  no_permission_send_campaign: You do not have permission to send this campaign
+  no_phone: No Phone 
+  no_phone_inquiry: No phone in inquiry 
+  no_quote_inquiries: No inquiries 
+  no_reorder_date: No Re-order Date 
+  no_sale_defined: No Sale Defined
+  no_scheduled_campaigns: Scheduled Campaigns 
+  no_sent_campaigns: No Sent Campaigns 
+  no_stages_lead_type: There are no lead stages available for lead type 
+  no_tags: No Tags 
+  no_taken_by: No taken by 
+  no_taken_by_defined: No Taken By defined 
+  no_target_specified: "No Target Specified:" 
+  no_tasks: No Tasks
+  no_test_email_html: No test email set. Visit %{link} to set it.
+  no_verification_request: No Verification Request Found
+  non_editable: Non-editable
+  non_edit_global_list_html: This is a <span class="text-red">non-editable global contact list</span>, to edit the rules you will first need to save a copy which can then be edited. 
+  non_sales_reconciliation: Non-sales reconciliation
+  none_defined: None Defined 
+  none: None
+  none_f: None 
+  none_m: None 
+  not_connected: Not Connected 
+  not_delivered: Not Delivered 
+  not_delivered_shipments: Not Delivered #relative to shipments
+  not_invoiced_sales: Not Invoiced #'not invoiced' relative to sales
+  not_invoiced_shipments: Not invoiced #'not invoiced' relative to shipments
+  not_mapped: Not mapped 
+  not_relevant: Content is not relevant 
+  not_scheduled: Not Scheduled
+  not_started: Not Started
+  not_to_be_invoiced: Not to be Invoiced 
+  not_updated: Not Updated 
+  not_visible: Not Visible
+  note: Note 
+  note_will_send_invite: Note! This status will send a meeting invite to client 
+  notes: Notes 
+  notifications: Notifications 
+  num_of_invoices: "# of Invoices" 
+  num_of_invoices_ly: "# of Invoices LY" 
+  number_of_accounts: Number of Accounts 
+  number_of_business_days: number of business days 
+  "off": "Off"
+  old: Old 
+  "on": "On" 
+  on_hold: On Hold 
+  onboarding_checklist: Onboading Checklist 
+  once: Once
+  one_digit: 1 digit 
+  one_lowercase_letter: 1 lowercase letter 
+  one_special_character: 1 special character 
+  one_uppercase_letter: 1 uppercase letter 
+  online_help: Online Help 
+  online_training: Online Training 
+  only_with_sales: Only with Sales 
+  open: Open 
+  open_date: Open Date 
+  open_rate: Open Rate 
+  opened: Opened 
+  opened_plural: Opened 
+  orange: Orange 
+  order: Order 
+  order_date: Order Date 
+  order_in_progress: Order in progress 
+  order_type: Order Type 
+  ordered: Ordered 
+  ordered_date: Ordered Date 
+  orders: Orders
+  organise: Organise # NEED?
+  other_custom: Other (custom) 
+  over_x_days: "Over %{number} Days" 
+  overdue: Overdue 
+  overdue_invoices: Overdue Invoices 
+  overdue_tasks: Overdue
+  today_overdue_tasks: Today / Overdue
+  override: Override
+  override_all: Override All
+  override_rolling_value: This will override the 'Rolling 12 Months Value' 
+  override_throttle_auto_send: Override Throttle for Auto Send
+  overview: Overview 
+  page_total: Page Total 
+  paid: Paid 
+  part_buying_group: Part of Buying Group 
+  password: Password 
+  past_due: Past Due 
+  paste_external_url: Paste external file link 
+  pause: Pause
+  paused: Paused 
+  pay_now: Pay Now
+  pay_url: Pay URL
+  pct_growth_compared_ly: "% Growth compared to LY"
+  pct_of_spend: "% of all spend"
+  pct_total_sales: "% of total sales "
+  pdf_failed: PDF failed to generate
+  pdf_needs_update: PDF Needs Update 
+  pdf_out_of_date: PDF is out of date 
+  pdf_queued_for_regen: The PDF has been queued for re-generation 
+  pending: Pending 
+  pending_validation: Pending validation 
+  people: People 
+  percent_of_sales: "% of sales" 
+  personal: Personal 
+  personal_info: Personal Info 
+  phd: Ph.D. 
+  phone: Phone 
+  phone_call: Phone Call
+  phone_calls: Phone Calls 
+  phone_number: Phone Number 
+  phone_optional: Phone (optional) 
+  picked_up_not_closed: picked up, not closed out sale
+  pickup: Pick-up 
+  pickup_date: Pickup Date 
+  please_load_targets: Please load targets 
+  please_select_ap_contact: Not allowed. Please select an AP contact and try again!
+  zip: Zip 
+  postcode: Zip #TODO: Cleanup for .RB file refactor
+  prefill_previous_performance: Prefill based on pervious performance 
+  prefix: Prefix 
+  prepare_price_list: Prepare Price List
+  press_enter_save: Press ENTER to save. 
+  preview: Preview 
+  preview_campaigns: Preview Campaigns 
+  previous: Previous 
+  previous_estimates: Previous Estimates 
+  previous_month: Previous Month 
+  previous_sales: Previous Sales
+  primary: Primary 
+  primary_contact: Primary Contact 
+  primary_decision_maker: Primary Decision Maker 
+  print: Print 
+  process_cant_roll_back: This process can't be rolled back. 
+  processing: Processing
+  product: Product 
+  product_interests: Product Interests 
+  production_locations: Productions Locations 
+  progress: Progress
+  proof: Proof
+  proof_portal: Proof Portal 
+  prospect: Prospect 
+  prospects: Prospects 
+  purchase_order: Purchase Order 
+  purchase_orders: Purchase Orders
+  purple: Purple 
+  qty: QTY
+  quarter: Quarter
+  quarters: Quarters
+  quarterly: Quarterly 
+  quick_access: Quick Access 
+  quote_inquiry: Inquiry 
+  quote_inquiry_notifications: Inquiry Notifications
+  quote_request: Quote Request 
+  quarterly_fy: Quarterly FY
+  range_days: "%{beg} to %{end} Days" 
+  range_days_ago: "%{beg} to %{end} Days ago" 
+  range_enter_value: "Enter a value between %{beg} to %{end}"
+  range_years: "%{beg} to %{end} Years" 
+  rank: Rank
+  rank_ly: Rank LY 
+  reactivated: Reactivated 
+  read: Read
+  read_more: Read more 
+  read_only: READ ONLY 
+  reason: Reason 
+  reason_for_leaving: Could you take a few seconds to let us know why you are leaving 
+  receipts: Receipts
+  receiver: Receiver 
+  recent_activity: Recent Activity
+  records: Records 
+  red: Red
+  referral: Referral 
+  refresh_pdf: refresh PDF 
+  remaining: Remaining 
+  remind_when_due: Remind when it is due 
+  reminder: Reminder 
+  remove: Remove 
+  remove_bookmark: Remove Bookmark 
+  remove_bookmarks: Remove Bookmarks 
+  remove_lead: Remove Lead 
+  remove_leads: Remove Leads 
+  remove_tags: Remove Tags 
+  reorder: Re-order 
+  reorder_date_due: Reorder Date Due 
+  repeat: Repeat 
+  repeatable: Repeatable 
+  repeatable_tasks: Repeatable #Repeatable relative to tasks
+  replied: Replied 
+  replied_date: Replied Date 
+  reply_time: Reply Time 
+  report_last_generated: Report was last generated 
+  reporting: Reporting 
+  reports: Reports 
+  request_quote_url: Request a quote URL 
+  required: Required 
+  required_field: Required Field 
+  resend: Resend
+  result: Result
+  results: Results
+  resume: Resume 
+  return_to_user: Return to Your User 
+  return_to_wizard: Return to Campaign Wizard 
+  revert: Revert 
+  review: Review 
+  review_budget: Review Budget
+  review_ly_sales: Review LY Sales 
+  review_ly_shipments: Reivew LY Shipments 
+  review_url: Review URL 
+  reviewing: Reviewing 
+  request_invalid_asset: Request Invalid Asset
+  request_unknown_asset_type: Request unknown asset type
+  role: Role 
+  rolling: Rolling 
+  rolling_12_closeouts: Rolling 12 Closeouts 
+  rolling_12_growth: Rolling 12 Growth 
+  rolling_12_turnover: Rolling 12 Turnover
+  rolling_12_mth: Rolling 12 Mth 
+  rolling_12_mth_est_conv: Rolling 12 Months Estimate Conversion 
+  rolling_12_month_sales: Rolling 12 Months Sales
+  rolling_12_month_sales_ly: Rolling 12 Months Sales LY
+  rolling_12_mth_value: Rolling 12 Months Value 
+  rolling_12_mth_target: Rolling 12 Months Target
+  rolling_12_total: Rolling 12 Total 
+  rolling_12_value: Rolling 12 Value 
+  rolling_12_cogs: Rolling 12 COGS
+  rounding: rounding 
+  rule: Rule 
+  rule_based_contacts: Rule Based Contacts 
+  sale: Sale 
+  sale_date: Sale Date
+  sales: Sales
+  sales_mtd: Sales MTD
+  sales_activity: Sales Activity 
+  sales_by_loc: Sales - by Location 
+  sales_by_tag: Sales by Tag 
+  sales_data: Sales Data 
+  sales_data_quality: Sales - Data Quality 
+  sales_forecast: Total revenues
+  sales_growth: Sales Growth 
+  sales_ly: Sales LY 
+  sales_metrics: Sales Metrics 
+  sales_missing_taken_by: Sales are missing taken by. 
+  sales_overview: Sales Overview 
+  sales_per_month: Sales per month 
+  sales_rep_nso: Sales Rep
+  sales_rolling_12: Sales Rolling 12 Months 
+  sales_taken_missing_mapping: Sale taken bys are missing mappings. 
+  sales_target: Sales Target 
+  sales_targets: Sales Targets 
+  sales_team: Sales Team 
+  sales_vs_all: Sales vs all 
+  same_period_ly: Same Period - Last Year 
+  same_weekday: Same Weekday
+  save: Save 
+  save_changes: Save Changes 
+  save_computed_budget_html: To save the computed budget values please press the green <strong>SUBMIT</strong> button. 
+  save_custom_fields: Save Custom Fields 
+  save_group: Save Group 
+  save_import: Save Import 
+  save_inquiry_before_create: Please save the inquiry before creating a lead. 
+  schedule: Schedule 
+  schedule_preview: Schedule Preview
+  scheduled: Scheduled
+  scheduled_campaigns: Scheduled Campaigns 
+  search: Search 
+  search_by_name: Search by name 
+  search_file_name_category: Search (file name or category) 
+  search_for_adjustment: Search for adjustment 
+  search_for_campaign: Search for campaign 
+  search_for_category: Search for category 
+  search_for_contact: Search for contact 
+  search_for_email: Search for email 
+  search_for_estimate: Search for estimate 
+  search_for_order: Search for order 
+  search_for_sale: Search for sale 
+  search_for_shipment: Search for shipment 
+  search_for_task: Search for task
+  search_for_template: Search for template 
+  search_holiday: Search Holiday 
+  search_name_body: Search (name or body) 
+  search_name_number: Search (name or number) 
+  search_name_word_matches: Search (name or word matches) 
+  search_news: Search news 
+  security: Security 
+  select_an_option: Select an option 
+  select_campaigns: Select Campaigns 
+  select_contact_list: Select Contact List 
+  select_contacts: Select Contacts 
+  select_currency: Select Currency 
+  select_email_notifications: Select who will receive email notifications 
+  select_financial_year: Select Financial Year 
+  select_invoice_type: Select Invoice Type 
+  select_location: Select Location 
+  select_name: Select Name 
+  select_tags: Select tags 
+  select_user: Select User 
+  send: Send 
+  send_a_file: Send a File 
+  send_date: Send Date 
+  send_email: Send Email 
+  send_progress: Send Progress 
+  send_now: Send Now
+  send_test_now: Send Test Now
+  send_to_ap_contact: Send invoices / statements to AP contact ONLY 
+  send_verification_email: Send Verification Email
+  sender: Sender 
+  sending: Sending 
+  seniority: Seniority 
+  sent: Sent 
+  sent_campaign: Sent Campaign
+  sent_campaigns: Sent Campaigns 
+  sent_date: Sent Date 
+  sent_to: sent to 
+  sent_to_client: sent to client 
+  sent_to_recently: Campaign was sent too recently 
+  service_type: Service Type
+  set_allowed_countries: Set Allowed Countries 
+  set_as_default: Set As Default 
+  set_as_new_lead: Set as New Lead 
+  set_as_primary: Set as Primary 
+  set_assigned_user: Set Assigned User 
+  set_bookmark: Set Bookmark 
+  set_contact_leads: Set Contact Leads 
+  set_default: Set Default 
+  set_default_banner: Set Default Email Banner 
+  set_default_template: Set Default Email Template 
+  set_enterprise_default_language: Set Enterprise Default Language 
+  set_enterprise_campaign_settings: Set in Enterprise Campaign Settings
+  set_invoice_contact: Set Invoice Contact 
+  set_lead_type: Set Lead Type 
+  set_live: Set Live
+  set_primary_contact: Set Primary contact 
+  set_sales_targets: Set Sales Targets 
+  set_target: Set Target 
+  set_user_defaults: Set User Defaults 
+  settings: Settings
+  setup_email_signature: Setup email signature
+  setup_email_to_send: Setup email to send 
+  setup_lead_types_stages: Please setup lead types and stages 
+  setup_test_email: Setup test email address
+  setup_users: Setup users
+  shared_contacts: Other Contacts
+  shared_contacts_tooltip: Shows the contacts of the other MBE Centers that are part of the Company. N.B. The transactions shown for these contacts, if any, are only those relating to the current MBE Center
+  shared_customers: Shared
+  shared_customers_tooltip: Show only customers from other MBE Centers that are part of the Company. N.B. The transactions shown for these customers, if any, are only those relating to the current MBE Center
+  shared_users: Shared Users 
+  shell_template: Shell Template 
+  shell_wrapper: Shell / Wrapper 
+  shipment: Shipment 
+  shipment_%_sales: Shipment % sales 
+  shipment_date: Shipment Date 
+  shipment_not_found: Shipment not found
+  shipment_notes: Shipment Notes 
+  shipment_request: Shipment Request
+  shipment_status: Shipment Status 
+  shipment_type: Shipment Type 
+  shipments: Shipments 
+  shipments_%_sales: Shipments as a % of total sales 
+  shipping_value: Shipping Value
+  show: Show 
+  show_all: Show All 
+  show_archived: Show Archived
+  show_bookmarks: Show Bookmarks 
+  show_cogs: Show COGS
+  show_enterprise_campaigns: Show Enterprise Campaigns 
+  show_global_campaigns: Show Global Campaigns 
+  show_global_tags: Show Global Tags 
+  show_global_templates: Show Global Templates 
+  show_hidden: Show Hidden 
+  show_hidden_campaigns: Show Hidden Campaigns 
+  show_less: Show less 
+  show_marketing_events: Show marketing calendar events 
+  show_only_scheduled_campaigns: Show only Scheduled Campaigns 
+  shown: Shown 
+  signature_setup_and_more: Signature setup and more 
+  similarity: Similarity 
+  single: Single 
+  single_purchase: Single Purchase 
+  skip: Skip
+  skip_next: Skip Next 
+  skipped: Skipped 
+  sms: SMS
+  sms_templates: SMS Templates 
+  snapshot: Snapshot 
+  soft_bounced: Soft Bounced 
+  sorry_to_see_you_go: We're sorry to see you go. 
+  sort: Sort 
+  sort_order: Sort Order
+  source: Source 
+  sr: Sr. 
+  stage_name: Stage Name
+  start: Start 
+  start_after_days: Start after days
+  start_date: Start Date 
+  start_time: Start Time 
+  state: State 
+  state_help_block: Please use Abbreviated Names eg. %{state}
+  statement_address: Statement address 
+  statement_contact: Statement contact 
+  statement_template: Statement Template 
+  states: States
+  status: Status 
+  str: STR
+  street: Street 
+  street1: Street1
+  street2: Street2 
+  street3: Street3
+  subject: Subject 
+  submit: Submit
+  summary: Summary
+  super_users: Super Users
+  city: City 
+  suburb: City #TODO: Cleanup for .RB file refactor
+  suffix: Suffix 
+  sunday: Sunday
+  tagged_sales: Tagged Sales 
+  tagged_sales_amt: Tagged Sales $ 
+  tagged_sales_ly: Tagged Sales LY $ 
+  tagged_v_untagged_sales: Tagged vs Untagged Sales
+  tag: Tag
+  tag_match: Tag match
+  tags: Tags 
+  tags_visibility_on_listings: Tags Visibility on Listings 
+  taken_by: Taken by 
+  taken_by_mappings: Taken By Mappings 
+  taken_bys: Taken Bys
+  target: Target
+  target_totals: Target Totals 
+  targeted_%_growth: Targeted % Growth 
+  targeted_growth: Targeted % Growth for 
+  targets: Targets 
+  task: Task 
+  task_calendar_color: Task Calendar Color
+  task_due_overdue: Tasks Due / Overdue Today
+  task_types: Task Types 
+  tasks: Tasks 
+  tasks_completed: Tasks Completed 
+  tasks_type_description_html: All tasks connected will update their type to <strong>None</strong>. 
+  team_overview: Team Overview
+  temp_contacts: Temp Contacts 
+  template: Template 
+  template_created_success: Email Template was successfully created. #NEEDS TRANSLATION
+  template_has_inline_images: Template contains inline images. 
+  template_has_unsubscribe: Template has an unsubscribe merge field. 
+  template_name: Template Name 
+  template_needs_unsubscribe: Template needs an unsubscribe merge field. 
+  template_no_inline_images: Template does not contain inline images. 
+  template_update_success: Email Template was succesfully updated.
+  template_zip_file: Template Zip file 
+  templates: Templates 
+  temporary: Temporary 
+  temporary_contact: Temporary Contact  
+  test: Test 
+  test_already_sent: Test send already sent 
+  test_check: Test Check 
+  test_checklist: Test Checklist 
+  test_email: Test Email 
+  test_email_default_info: used as a default when testing email send 
+  test_email_sent_to: There will be up to 3 test messages sent to %{email}
+  test_mode: Test Mode 
+  test_send: Test Send 
+  test_send_addr_explain: All test campaigns will bee BBC'd to this address 
+  test_send_address: Test Send Address 
+  test_send_required: Test send required 
+  thank_you: Thank you 
+  this_is_default_banner: This is the default banner 
+  this_is_shell_template: This is a shell template 
+  this_month: This Month 
+  this_week: This Week 
+  this_year: This Year 
+  throttle: Throttle 
+  throttled_contacts: Throttled Contacts  
+  ticket: Ticket
+  time: Time 
+  title: Title 
+  to: To 
+  to_be_invoiced: To be Invoiced 
+  to_be_invoiced?: To Be Invoiced? 
+  to_continue_press_next: To continue please press the NEXT button 
+  today: Today
+  toggle_dropdown: Toggle Dropdown 
+  tomorrow: Tomorrow 
+  top: Top 
+  top_20_rolling: Top 20 - Rolling 12 Months 
+  top_50_lapsed: Top 50 Lapsed 
+  top_50_new: Top 50 New 
+  top_contacts: Top Contacts 
+  top_contacts_havent_ordered: Top 20 Contacts last order +30 days 
+  top_n_sales: "Top %{number} Sales"
+  top_n_sales_vs_all: "Top %{number} Sales vs All"
+  top_x: "Top %{number}"
+  top_x_lapsed: "Top %{number} lapsed" 
+  top_x_new: "Top %{number} New" 
+  top_x_trend: Top %{number} Customers trend
+  total: Total 
+  total_campaigns: Total Campaigns 
+  total_clicks: Total Clicks 
+  total_contacts: Total Contacts 
+  total_lifetime_value: Total Lifetime Value 
+  total_matching_contacts: Total Matching Contacts 
+  total_sales: Total Sales 
+  total_sent: Total Sent 
+  total_to_fix: Total to Fix 
+  totals: Totals 
+  tracking_number: Tracking Number
+  trading_days: Working Days
+  transactions_frequency: Transactions Frequency 
+  transactions_value: Transactions Value 
+  turquiose: Turquiose 
+  ty: TY 
+  type: Type 
+  type_a_name: Type a name 
+  type_category_name: Type a category name 
+  type_comment_here: Type a comment here 
+  type_inquiry_description: Type an inquiry description 
+  type_name_of_task: Type the name of your task 
+  type_your_subject: Type your subject 
+  unable_send_auto_send: Unable to manually send due to auto send being on 
+  unable_send_invalid_identity: Unable to send due to invalid identity 
+  unable_send_invalid_merge: Unable to send due to invalid merge fields 
+  unarchive: Unarchive 
+  undeliverable: Undeliverable
+  undelivered: Undelivered 
+  understanding_bounces: Understanding Bounce Messages 
+  unhide: Unhide 
+  unhide_sale: Unhide Sale 
+  unhide_shipment: Unhide Shipment 
+  unknown: Unknown 
+  unknown_contact: Unknown Contact 
+  unlock: Unlock
+  unmapped: Unmapped 
+  unmapped_sales: Unmapped Sales 
+  unpaid_invoices: Unpaid Invoices 
+  unpause: Unpause 
+  unread: Unread 
+  unread_inquiries: Unread Inquiries
+  unread_news: Unread News 
+  unscheduled: Unscheduled 
+  unsent: Unsent 
+  unspecified: Unspecified 
+  unsubscribe: Unsubscribe 
+  unsubscribe_success: Unsubscribe Successful 
+  unsubscribe_template: Unsubscribe Template 
+  unsubscribed: Unsubscribed 
+  unsubscribes: Unsubscribes 
+  untagged_sales: Untagged Sales 
+  unverified: Unverified
+  up_to_date: Up to Date 
+  update: Update 
+  update_holiday: Update Holiday 
+  update_industry: Update Industry 
+  update_lead_stage: Update Lead Stage 
+  update_lead_type: Update Lead Type 
+  update_stage: Update Stage 
+  update_status: Update Status 
+  updated: Updated 
+  upload_banner: Upload Banner 
+  upload_csv: Upload CSV 
+  upload_file: Upload File 
+  upload_image: Upload Image 
+  upload_list: Upload List 
+  url_path: URL Path 
+  user: User 
+  user_first_name: User First Name
+  user_last_name: User Last Name
+  user_no_google_apps: Assigned user doesn't have their Google Apps connected. 
+  user_restrictions: User Restrictions 
+  user_state: User state
+  user_target: User Target
+  username: Username 
+  users: Users 
+  valid_lead_sources: Valid Lead Sources 
+  valid_lead_sources_html: Valid Lead Sources can be viewed <a href="#" onclick="toggleLeads()">here</a>. 
+  valid_merge_fields: "Valid merge fields for this URL are {{amount}}, {{number}}, {{name}}, and {{email}}"
+  valid_tags: Valid Tags 
+  valid_tags_html: Valid Tags can be viewed <a href="#" onclick="toggleTags()">here</a>.
+  validate: Validate
+  validated: Validated
+  vat: VAT
+  verification_pending: Verification Pending 
+  version: Version
+  view: View 
+  view_all: View All
+  view_call: View Call
+  view_invoice: View Invoice 
+  view_lead: View Lead 
+  view_list: View List 
+  view_matches: View Matches
+  view_online: View Online 
+  view_sale: View Sale 
+  view_task: View Task 
+  view_meeting: View Meeting
+  viewed: Viewed
+  visible: Visible 
+  visit_sales_portal: Visit Sales Portal
+  voided: Voided
+  waiting: Waiting 
+  waybill_attach: Attach Waybill
+  waybill_attach_mbe: Attach MBE Waybill
+  waybill_could_not_fetch: Could not fetch waybill
+  walkins: Walk-ins 
+  wanted_by: Wanted by 
+  warning_invalid_merge_fields_html: <b>Warning:</b> This template appears to have invalid merge fields. 
+  web_order: Web Order 
+  website: Website 
+  website_url: Website URL 
+  week: Week
+  weeks: Weeks
+  week_start: "Week starts on:" 
+  weekly: Weekly  
+  will_send_to: will send to %{email} 
+  wip: WIP 
+  with_balance: With Balance 
+  with_tags: With Tags 
+  without_tags: Without Tags 
+  won: Won 
+  word_match_description_html: This value should be a comma seperated list of words to match. Matches are case insensitive and anchored to the beginning of words.<br> <strong>E.g.</strong> A value of <code>'sign'</code> would match <code>'Sign'</code>, <code>'Large sign'</code>, and <code>'New Sign'</code> but would not match <code>'Design'</code>. #?HTML
+  word_matches: Word Matches 
+  x_contacts:
+    one: One contact 
+    other: "%{count} contacts" 
+  x_days:
+    one: 1 day
+    other: "%{count} days"
+  x_hours: 
+    one: 1 hour 
+    other: "%{count} hours" 
+  year: Year 
+  years: Years
+  yearly: Yearly
+  year_before_last: Year before last
+  year_to_date: Year to Date 
+  yellow: Yellow 
+  "yes": "Yes" 
+  yesterday: Yesterday
+  your: Your 
+  your_ip_address: Your current IP address is 
+  ytd: YTD
+  operand: Operand
+  exists: Exists
+  not_exists: Does Not Exist
+  does_not_exist: Does Not Exist
+  greater_than: Greater Than
+  equal_to_or_greater_than: Equal To or Greater Than
+  less_than: Less Than
+  equal_to_or_less_than: Equal To or Less Than
+  equal_to: Equal To
+  between: Between
+  before: Before
+  after: After
+  is: "Is"
+  is_not: Is Not
+  "true": "TRUE"
+  "false": "FALSE"
+  not_opened: Not Opened
+  matches: Matches
+  does_not_match: Does not Match
+  value: Value
+  second_date: Second Date
+  date_operand: Date Operand
+  and: AND
+  this_quarter: This Quarter
+  last_quarter: Last Quarter
+  quarter_1: First Quarter
+  quarter_2: Second Quarter
+  quarter_3: Third Quarter
+  quarter_4: Fourth Quarter
+  quarter_1_last_year: First Quarter Last Year
+  quarter_2_last_year: Second Quarter Last Year
+  quarter_3_last_year: Third Quarter Last Year
+  quarter_4_last_year: Fourth Quarter Last Year
+  relative_date: Relative Date
+  during: During 
+  first_shipment_date: First Shipment Date
+  last_shipment_date: Last Shipment Date
+  last_invoiced_sale_date: Last Invoiced Sale date
+  address_name: AddressName
+  contact_street1: ContactStreet1
+  contact_street2: ContactStreet2
+  contact_street3: ContactStreet3
+  contact_city: ContactCity
+  contact_zip: ContactZip
+  lead_street1: LeadStreet1
+  lead_street2: LeadStreet2
+  lead_street3: LeadStreet3
+  lead_city: LeadCity
+  lead_zip: LeadZip
+  latest_order_date: LastOrder
+  #REFACTOR KEYS
+  #Print Speak
+  printspeak: "PrintSpeak"
+  printspeak_contact_url: "PrintSpeakContactURL"
+  printspeak_company_url: "PrintSpeakCompanyURL"
+  view_in_printspeak: "View in PrintSpeak"
+  new_task_in_printspeak: "You have a new task in PrintSpeak:"
+  task_due_in_printspeak: "You have a due task in PrintSpeak:"
+  task_cancelled_in_printspeak: "A task has been cancelled in PrintSpeak:"
+  task_completed_in_printspeak: "A task has been completed in PrintSpeak:"
+  mapped_to_printspeak_user: "Mapped to Printspeak User"
+  new_printspeak_meeting: "You have a new meeting in PrintSpeak: %{title}"
+  updated_printspeak_meeting: "Your meeting in PrintSpeak has been updated: %{title}"
+  upcoming_printspeak_meeting: "You have an upcoming meeting in PrintSpeak: %{title}"
+  cancelled_printspeak_meeting: "Your meeting in PrintSpeak has been canceled: %{title}"
+  gmail_sync_message_html: To send and receive emails from Print Speak please connect you Gmail account. <br/> Click <a href="#gmail_sync" data-toggle="modal">here</a> to understand how we collect and use your Google data to send and receive emails.
+  gmail_sync_modal_body_html: 
+    <h4>Making it easy to understand what data we collect and why</h4>
+    <p class="m-b-4">When you connect your Google account to Print Speak, you trust us with your data. It’s our responsibility to be transparent about the data we collect, and how we use it in making our services work better for you.</p>
+    <h4>Information you create or provide to us</h4>
+    <p class="m-b-4">When you connect your Google Account, you provide us with access to your Gmail and Google Calendar account. If you are signed in, we collect and protect information you create when using our services. This can include:</p>
+    <ul class="m-b-4">
+        <li>Emails you write and receive on Gmail</li>
+        <li>Documents you attach to emails</li>
+        <li>Calendar events</li>
+    </ul>
+    <h4>How Print Speak helps you to quickly see all the emails between you and your customers</h4>
+    <p class="m-b-4">When you send emails to your customers from your Gmail account Print Speak automatically syncs them into the correct company and contact so that you can easily see all of your email communications in one place.</p>
+    <h4>How Print Speak helps you talk to your customers more effectively</h4>
+    <p class="m-b-4">You can send out emails from Print Speak using your gmail account together with a range of easy to use personalised business templates enabling you to create professional business emails much faster.</p>
+    <h4>How Print Speak helps create meetings faster</h4>
+    <p class="m-b-4">When you need to create a business meeting with your customer you can easily send out meeting invitations from Print Speak that integrate with your Google Calendar account.</p>
+  # Companies
+  company: Company
+  company_address_name: CompanyAddressName
+  company_hasnt_ordered: Company hasn't ordered in 30 days
+  company_not_found: Company not found
+  lost_companies: Lost Companies
+  lost_companies_tooltip: Companies who have spent nothing in the last 12 months but spent more than $1 in the year prior
+  company_info: Company info
+  company_status: Company status
+  company_name: Company name
+  create_edit_users: "Create and edit users "
+  no_company: No company
+  no_company_defined: No company defined
+  your_top_companies:  Your Top %{number} Companies
+  company_settings: Company Settings
+  new_company_last_year: New company in last year
+  search_for_company: Search for a company
+  new_companies: New Companies
+  reactivated_tooltip: Your Reactivated Companies are all your companies that had no sales last year but did have sales the year prior.
+  top_companies: Top Companies
+  company_date_created: Company date created
+  new_company: New Company
+  no_campaign_sent_for_company: No campaigns have been sent for this company
+  default_for_companies: Default for Companies
+  enterprise_companies_default: Enterprise Companies Default
+  new_companies_tooltip: Companies who's first invoice was in the last 12 months
+  type_company_name: Type a Company Name
+  top_companies_havent_ordered: Top 20 Companies last order +30 days
+  filter_by_company: Filter by company
+  company_count: Company count
+  company_lead_source: Company Lead Source
+  tagged_companies: Tagged Companies
+  untagged_companies: Untagged Companies
+  tagged_v_untagged_company: Tagged vs Untagged Company count
+  pct_of_all_companies: "% of all Companies" 
+  no_company_name_inquiry: No company name in inquiry  #and work
+  number_of_companies: Number of Companies 
+  matching_companies: Matching Companies
+  no_matching_companies: No matching companies  #and work
+  x_matching_companies:  
+    one: "One company" 
+    other: "%{count} companies" 
+  inquiry_company: Inquiry Company
+  new_companies_single_purchase: New companies single purchase
+  new_single_purchase_tooltip: Companies who's first and ONLY invoice was in the last 12 months
+  active_companies: Active Companies
+  active_companies_tooltip: Companies that have spent more than $1 in the last 12 months
+  company_churn: Company churn
+  company_retention: Company retention
+  sales_per_company: Sales per company" 
+  company_churn_tooltip: The value of this year's Active companies LESS the value of last years Active companies
+  transactions_per_company: Transactions per company
+  transactions_per_50_companies: Transactions per top 50 companies
+  invoices_day_new_companies: Invoices per day from New Companies
+  sales_by_company_cat: Sales by Company Cat
+  sales_by_company_tag: Sales by Company Tag
+  company_sales_by_tag: Company Sales by Tag
+  avg_shipments_company: Avg number of shipments per company
+  company_created_date: Company Created Date
+  company_growth: Company Growth
+  company_ranking: Company Ranking
+  company_street1: CompanyStreet1
+  company_street2: CompanyStreet2
+  company_street3: CompanyStreet3
+  company_city: CompanyCity
+  company_zip: CompanyZip
+  company_state: CompanyState
+  sales_per_month_by_company: Sales per month by company
+  contact_company_name: Contact Company Name
+  #END OF COMPANIES 
+  #TENANTS
+  tenant: Tenant
+  tenants: Tenants
+  tenant_phone: "TenantPhone"
+  tenant_contact_name: "TenantContactName"
+  tenant_address_1: TenantAddress1
+  tenant_address_2: TenantAddress2
+  tenant_city: TenantCity
+  tenant_state: TenantState
+  tenant_zip: TenantZip
+  select_tenants: Select Tenants
+  hide_from_tenant: Hide from Tenant
+  global_task_type_description: Task Type will be visible to all Tenants. Tenants can hide global task types.
+  for_x_tenants: 
+    one: For 1 tenant
+    other: For %{count} tenants
+  to_all_tenants: To all tenants
+  selected_tenant: Selected Tenant
+  hide_template_for_tenant: Hide this template for current tenant
+  global_holidays_description: Holidays will be visible to all Tenants. Tenants can hide global holidays.
+  tenant_groups: Tenant Groups
+  edit_tenant_group: Edit Tenant Group
+  new_tenant_group: New Tenant Group
+  tenant_status: Tenant Status
+  tenant_links_urls: Tenant Links & URLs
+  tenant_number: Tenant Number
+  tenant_name: Tenant Name
+  tenant_affiliations_for_x: Tenant Affiliations for %{name}
+  choose_tenant: Choose tenant 
+  no_tenant_data: No tenant data available
+  tenant_target: Tenant Target
+  centre: Centre
+  centre_company_name: Center Company Name
+  centre_company_number: Center Company Number
+  #END TENANTS
+  #Sales Rep
+  sales_rep: Sales Rep
+  sales_rep_first_name: Sales Rep First Name
+  sales_rep_last_name: Sales Rep Last Name
+  sales_rep_PS: SalesRepPS
+  sales_rep_email: SalesRepEmail
+  sales_rep_name: SalesRepName
+  sales_reps: Sales Reps
+  salesreps_title: Sales Reps
+  salesreps_header: Sales Reps
+  update_sales_rep: Update Sales Rep 
+  no_salesrep_defined: No sales rep defined
+  loc_salesreps_missing_mapping: Locations / Sales Reps are missing mappings.
+  loc_salesreps_missing: Locations / Sales Reps are missing.
+  sales_rep_mappings: Sales Rep Mappings
+  sales_rep_for_locations: Sales rep for locations
+  sales_rep_map_to: Sales Reps map to
+  lock_sales_rep: Lock Sales Rep
+  no_salesrep: No Sales Rep
+  top_sales_rep: Top Sales Rep
+  select_salesrep: Select Sales Rep
+  sales_by_salesrep: Sales - by Sales rep
+  sales_missing_mapping: Sales missing Sales Rep mapping
+  salesrep_not_mapped: Sales Reps not mapped to user
+  leads_no_salesrep: Leads with no sales rep assigned
+  fix_salesreps: Fix Sales Reps
+  bulk_select_salesrep: Bulk Select Sales Rep
+  change_sales_reps: Change Sales Reps
+  change_sales_rep: Change Sales Rep
+  no_salesrep_assigned: No Salesrep Assigned
+  map_sales_reps: Map sales reps
+  map_sales_rep_to_users: Map Sales Reps to Print Speak users
+  by_sales_rep: By Sales rep
+  contact_sales_rep: Contact Sales Rep
+  contact_sales_rep_email: Contact Sales Rep Email
+  contact_sales_rep_first_name: Contact Sales Rep First name
+  contact_sales_rep_last_name: Contact Sales Rep Last Name
+  #end sales rep
+  #WALKINS
+  walk_in: Walk-In
+  walk_ins: Walk-Ins
+  walk_in_sales_pct: Walk-ins % of sales
+  walk_in_customers: Walk-in Customers
+  walk_in_sales_tooltip: The total value of walk-in sales as a % of total sales
+  walk_ins_tooltip: The total value of walk-in sales for the last 12 months
+  #STATE
+  state_geo: State
+  contact_state: ContactState
+  lead_state: LeadState
+  filter_by_state: Filter by state
+  select_state: Select State"
+  #misc
+  web_sales: Web Sales
+  single_sale: Single Sale
+  days_since_last_pickup_date: Days since Last Pickup Date
+  rolling_12_cogs_tooltip: "Rolling 12 months cost of goods %"
+  valid_sales_reps_html: Valid Users can be viewed <a href="#" onclick="toggleReps()">here</a>.
+  valid_sales_reps: Valid Sales Reps
+  last_contact_more_15: Last contact more than 15 days ago
+  pikaday: "{
+      previousMonth : 'Previous',
+      nextMonth     : 'Next',
+      months        : ['January','February','March','April','May','June','July','August','September','October','November','December'],
+      weekdays      : ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+      weekdaysShort : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+    }"
+  highcharts_lang:  "{
+      loading: 'Loading...',
+      months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      weekdays: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      shortMonths: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      exportButtonTitle: 'Export',
+      printButtonTitle: 'Import',
+      rangeSelectorFrom: 'From',
+      rangeSelectorTo: 'To',
+      rangeSelectorZoom: 'Range',
+      downloadPNG: 'Download PNG',
+      downloadJPEG: 'Download JPEG',
+      downloadPDF: 'Download  PDF',
+      downloadSVG: 'Download SVG',
+      printChart: 'Print Chart',
+      thousandsSep: '.',
+      decimalPoint: ','
+    }"
+  
+  #Contact List rules only in PS
+  estimate_ordered_date: Estimate Ordered Date
+  estimates_in_progress: Estimate in progress
+  estimates_status: Estimate status
+  first_estimate_date: First estimate date
+  invoice_ordered_date: Invoice Ordered Date
+  last_estimate_date: Last Estimate Date
+  orders_in_progress: Order in Progress
+  single_estimate: Single Estimate
+  first_order_date: First Order Date
+
+  date:
+    date: Date
+
+  #TODO Sort out below 
+  models:
+    company:
+      account_types:
+        charge_acct: Charge Account
+        cash_only: Cash Only
+        cash_check_credit: Cash / Credit / Check
+        full_deposit: Full Deposit
+        credit_card_on_file: Credit Card on File
+        default: Unknown
+      statuses:
+        CustomerStatusCurrent: Current
+        CustomerStatusNew: New
+        CustomerStatusFrozen: Frozen
+        CustomerStatusPastDue: Past Due
+        CustomerStatusInactive: Inactive
+        CustomerStatusDelinquent: Delinquent
+        default: Unknown
+    
+  number:
+    number: Number
+    currency:
+      format:
+        format: "%u%n"
+        unit: DEPRECATED
+        precision: 2
+
+  platform_identifier:
+    shipment_request: Shipment Request
+    general: General
+    logistica: Logistics
+    e_link: MBE e-LINK
+    web_services: MBE Web Services
+    touch: MBE Touch
+    address: MBE Address
+    spedizioni_imballaggio: Shipping Packaging
+    printing_marketing: Printing Marketing
+    e_commerce: E-commerce
+    safe_value: MBE SafeValue
+    1_m_project: 1M Project
+
+  activity:
+    activity: "Activity"
+    by_user: " by %{user}"
+    changed: "changed to %{context}"
+    cleared: "was cleared"
+    missing: "Activity missing"
+    campaign:
+      failed: "Campaign %{name} has had %{failed_count} emails fail to be delivered. Click below to visit the campaign results and fix these"
+      sent: "Campaign sent to %{sent_count} contacts"
+      opened: "Campaign %{name} viewed %{opened_count} times"
+    campaign_message:
+      sent: "Campaign sent to %{contact_email}"
+      opened: "Campaign viewed by %{contact_email}"
+    comment:
+      created_by: "Comment <span class=\"text-muted\">created by</span> %{user_name} on %{commentable_link}"
+    company:
+      new: "New company in last year: %{name}"
+    email:
+      opened: "Email viewed by %{destination_emails}%{for_context}"
+      for_context: " for %{kind} %{invoice_number}"
+      sent: "Email sent to %{destination_emails} from %{source_email}"
+      failed: "Email failed to send to %{destination_emails} from %{source_email}"
+    estimate:
+      new: "%{contact_link} from %{company_link} placed a new estimate %{number_link}"
+      voided: "Estimate %{link} was voided from %{company_link}"
+      archived: "%{archived_user} archived estimate %{link} from %{company_link}"
+    invoice:
+      new: "%{contact_link} from %{company_link} placed a new invoice %{number_link}%{source_estimate}"
+      voided: "%{link} was voided from %{company_link}"
+    inquiry:
+      auto_email: "%{link} automatic email sent to %{inquiry_email}"
+      new: "%{link} created %{by_user}"
+      user_assigned: "%{link} assigned user %{user_assign_action}%{by_user}"
+      company_assigned: "%{link} assigned company %{company_assign_action}%{by_user}"
+      contact_assigned: "%{link} assigned contact %{contact_assign_action}%{by_user}"
+      estimate_assigned: "%{link} assigned estimate %{activity_estimate}%{by_user}"
+      estimate_unassigned: "%{link} unassigned estimate %{activity_estimate}%{by_user}"
+      order_assigned: "%{link} assigned order %{activity_order}%{by_user}"
+      order_unassigned: "%{link} unassigned order %{activity_order}%{by_user}"
+      sale_assigned: "%{link} assigned sale %{activity_sale}%{by_user}"
+      sale_unassigned: "%{link} unassigned sale %{activity_sale}%{by_user}"
+      shipment_assigned: "%{link} assigned shipment %{activity_shipment}%{by_user}"
+      shipment_unassigned: "%{link} unassigned shipment %{activity_shipment}%{by_user}" 
+    meeting:
+      new: "%{link} created%{by_user} on %{context_link}"
+      modified: "%{link} modified%{by_user} on %{context_link}"
+      completed: "%{link} completed%{by_user} on %{context_link}"
+    note:
+      new: "%{link} created%{by_user} on %{context_link}"
+      modified: "%{link} modified%{by_user} on %{context_link}"
+      deleted: "%{link} deleted%{by_user} on %{context_link}"
+    phone_call: "%{link} to %{contact_number} from %{user} on %{context_link}"
+    portal_comment: "%{link} %{status} with %{kind}"
+    prospect: "Lead %{link} was created%{by_user}"
+    task:
+      new: "%{task_link} <span class=\"text-muted\">created by</span> %{activity_user} <span class=\"text-muted\">was assigned to</span> %{user}"
+      completed: "%{task_link} <span class=\"text-muted\">completed by</span> %{activity_user} <span class=\"text-muted\">was assigned to</span> %{user}"
