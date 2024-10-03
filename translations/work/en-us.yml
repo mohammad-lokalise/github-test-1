@@ -1,0 +1,1100 @@
+work:
+  addColleague: Add Colleague
+  addColleaguesTeams: Add Colleagues/Teams
+  addedTo: 'Added to:'
+  assign:
+    assignTasks: Assign Tasks
+    assignToColleague: Assign to colleague
+    assignToMe: Assign to me
+    assignedItem: Assigned {item}
+    assignedMoreItems: Assigned {firstItems}, and {lastItem}
+    assignedTwoItems: Assigned {item} and {itemTwo}
+    assignment: Assignment
+  assignToModal:
+    assignTaskFailedToast: Failed to assign. The selected user may be archived.
+    assignTo: Assign To
+    budgetEstimate: Budget Estimate
+    estimatedTime: Estimated Time
+    failToast: Assignment failed
+    planFor: Plan for <span class="count">Week of {date}</span>
+    reassignment:
+      changeRole: Change Role ...
+      noRoleReassign: >-
+        Also reassign {assignedItemCount, plural, one {the other item} other {other items}} with no role in this
+        {work,select, other {work template} false {work}}:
+      otherReassign: >-
+        Also reassign {nameWithEndingS, select, false {{name}’s} other {{name}’}} other {assignedItemCount, plural, one
+        {item} other {items}} in this {work,select, other {work template} false {work}}:
+      roleReassign: >-
+        Also reassign {assignedItemCount, plural, one {the other {role} item} other {other {role} items}} in this
+        {work,select, other {work template} false {work}}:
+    repeatingWorkNotice: >-
+      The task list {budgetsEnabled,select, other {and budget have} false {has}} not been created for this repeating
+      work item.  Reassigning these items will mean they are created and will no longer inherit changes made to the
+      previous work item.
+    successToast: Assigned to {assigneefullName}
+    title: Assign Work
+  assignWorkTo: Assign Work To
+  assignedTo: Assigned To
+  assignee: Assignee
+  autoCompleteChecklistItemsModal:
+    leaveAllTasksAsIs: Leave all tasks as is.
+    markAllTasks: Mark all tasks as {completedName}
+    statusOptionsMessage: >-
+      The work status will be changed to {completedName}. There {incompleteChecklistCount,plural, one {is # incomplete
+      task} other {are # incomplete tasks}} for this work.
+    updateWorkStatus: Update work status
+  automatorListItem:
+    allSectionsAbove: all sections and tasks above
+    assignee: assignee
+    automatorInvalid: Automator Invalid
+    automatorLabel: >-
+      When {typeOfSourceTarget} {specificSectionName} {isThisWorkItem,select, true {has the status} other {have the
+      status}} ‘{sourceStatusLabel}’ change the {automatorTypeLabel} of {typeOfDestinationTarget} to
+      ‘{destinationStatusLabel}’
+    automatorWarning: Automator warning
+    destinationStatusLabel: '{days} days after this Automator is triggered'
+    dueDate: due date
+    sectionAbove: all of the tasks in the section above
+    sectionMissing: section missing
+    sentToClient: Sent to Client
+    specificSection: 'all of the tasks in section:'
+    status: status
+    thisSection: all of the tasks in this section
+    thisWorkItem: the work
+  automators: Automators
+  budget: Budget
+  budgetSection:
+    hourlyRate: Hourly Rate ({currencyCode})
+  bulkReassign:
+    and: and
+    assignFrom: Assign From
+    assignmentFailedMessage: Unable to Update Work Assignments
+    assignmentFailedMessageWithInvolvements: An error occurred when updating {failedInvolvements}.
+    assignmentFailedMessageWithItemNo: Unable to Update Work Assignments for {itemNo} item
+    assignmentUpdatedMessage: Work Assignments Updated
+    automators: Automators
+    checkItemsMessage: Check these items and try again.
+    clientRequestSender: Client Request Sender
+    clientTaskEmailSenders: Client Request Senders
+    emailConversations: Emails
+    includesTasksAndBudgets: Includes tasks and budgets
+    itemsAssignedByRole: Items Assigned by Role
+    message: Message
+    noteConversations: Notes
+    otherItems: Other Items
+    reassignFrom: Reassign From
+    reassignmentUndone: Reassignment Undone
+    retryFailedUpdates: Retry Failed Updates
+    roles: Roles
+    tasksWithNoRole: Tasks With No Role
+    tasksWithoutRole: Tasks
+    thisMayTakeAWhileToComplete: This may take a while to complete
+    timelineItemsEmailsAndNotes: Timeline Items (Emails and Notes)
+    undoUpdate: Undo Update
+    undoingUpdate: Undoing Update
+    updatingWork: Updating Work
+    workAssignee: Work Assignee
+    workAssigneeHasChangedWarning: >-
+      Work Assignees updated here will only be updated on the selected instances of the work.<br/><br/> All other
+      changes will be applied to repeating work created from these work items.
+    workOwner: Work Assignee
+  bulkWork:
+    banners:
+      contactsPromo: Create work in bulk for multiple contacts. Select the contacts and click <b>Add Work</b>.
+    bulkCreateWork:
+      buttons:
+        editAssignee: Assignee
+        editDue: Due
+        editRepeat: Repeat
+        editRoles: Roles
+        editStart: Start
+      clientRequestsTo: Client Requests To
+      confirmationModal:
+        text: Work for {count, plural, =1 {# contact} other {# contacts}} will be created immediately.
+        title: Confirm Bulk Work Creation
+      dueDateRepeat: '{count, plural, =1 {# day} other {# days}} after start date'
+      errors:
+        titleTooLong: Work instance title cannot be longer than 200 characters
+      modals:
+        discardWorkInstancesAction: Discard Work
+        discardWorkInstancesMessage: Work instances will not be saved if you navigate away from this page.
+        discardWorkInstancesTitle: Discard Work Instances
+      pageTitle: Bulk Create Work
+      sectionHeaders:
+        workInstances: Work to Create
+        workNaming: Work Naming
+      selectedLabel: '{count, plural, =0 {No Items} =1 {# Item} other {# Items}} Selected'
+      validationModal:
+        text: >-
+          This work template contains automatically sent client tasks. Please select who they will be sent to in client
+          request to column.
+        title: Unable to Create Bulk Work
+    bulkEditModals:
+      assignClientRequest:
+        label: Send to
+        title: Assign Client Requests
+      assignee:
+        errorMessage: Choose a Colleague
+      dueDate:
+        avoidWeekendsLabel: Avoid Weekends
+        label: Due
+        title: Edit Due Date
+        warning: You can’t edit due dates for repeating and non-repeating work at the same time.
+        warningTitle: Unable to Edit Due Date
+      repeatSettings:
+        title: Edit Repeat Settings
+        warning: You can’t edit due dates for repeating and non-repeating work at the same time.
+        warningTitle: Unable to Edit Due Date
+      roles:
+        description: Choose a colleague for each role to assign them unassigned tasks.
+        title: Assign Roles
+      startDate:
+        label: Start
+        title: Edit Start Date
+  changeClientModal:
+    blockingDescription: A draft invoice exists for this contact. Delete the draft invoice to change the client.
+    title: Change Client
+  changeStatus: Change status
+  checkList:
+    initilizeWorkActionLabel:
+      withBudget: Create Tasks & Budget
+      withoutBudget: Create Tasks
+    initilizeWorkMessage:
+      withBudget: >-
+        The task list and budget have not been created yet. Creating the tasks and budget now means they will no longer
+        inherit changes made to the previous work item.
+      withoutBudget: >-
+        The task list has not been created yet. Creating the tasks now means they will no longer inherit changes made to
+        the previous work item.
+  checkListItemTemplate:
+    dueAfter: Due {absoluteDays,plural, =1 {# day before} other{# days before}}
+    dueBefore: Due {absoluteDays,plural,=0 {same day} =1 {# day after} other{# days after}}
+  clientTask: Client task
+  connectedFolder:
+    DMSFolder: '{connectedDMS} Folder'
+    authMessage: Authenticate your {connectedDMS} account to get started.
+    authMessageSummaryMode: Authenticate your {connectedDMS} account to connect a folder.
+    authenticate: Go to Profile and Authenticate
+    autoCopy: Automatic Copy
+    autoCopyDescription: Automatically copy all files related to this work item into the connected folder
+    autoCopyDisableTextRepeatSettings: >-
+      Only you have access to this folder in {connectedDMS}. To enable repeat folder creation, remove this folder and
+      choose a shared folder instead.
+    chooseDMSFolder: Choose {DMS} Folder
+    chooseFolder: Choose Folder
+    connectDMS: Go to Document Storage and Connect
+    connectedFolderSectionTitle: Connected Folder
+    description: >-
+      Link all work items in this series with a {connectedDMS} folder to save, share and organize your files right from
+      {appName}.
+    descriptionNoDMSConnected: >-
+      Link all work items in this series with a Dropbox or OneDrive folder to save, share and organize your files right
+      from {appName}.
+    folderNotAvailable: Folder is not Available
+    folderNotConnected: Folder is not Connected
+    folderNotConnectedForRepeatingWork: No folder connected
+    learnAboutDM: Learn about Document Management
+    loadingState: Loading...
+    noDMSConnectedMessage: No document management system connected.
+    privateWorkItemDescription: This work item is {privacyLevel}. Make sure you’ve reviewed the folder’s permission settings.
+    removeFolder: Remove
+  contactWorkView:
+    emptyState:
+      emptyStateBody: Please try another filter.
+      emptyStateBodyNoWork: When work is created for {clientName}, it will show up here.
+      emptyStateBodyNoWorkForMe: When you have work for {clientName} assigned to you, it will show up here.
+      emptyStateHeader: There is no work matching the selected filter
+      emptyStateHeaderNoWork: There is no work for {clientName}
+      emptyStateHeaderNoWorkForMe: You have no work for {clientName}
+    filtersList:
+      allWork: All Work
+      allWorkNotCompleted: All Work (not completed)
+      completed: Completed
+      inProgress: In Progress
+      myWork: My Work
+      planned: Planned
+      readyToStart: Ready to Start
+      repeatingWork: Repeating Work
+      taxReturnStatus: Tax Return Status
+      waiting: Waiting
+    plannedWeek:
+      done: Done
+      later: Later
+      multipleweeks: Multiple Weeks
+      nextweek: Next Week
+      now: Working on Now
+      plannedForMultipleWeeks: Planned in Multiple Weeks
+      plannedForNextWeek: Planned for Next Week
+      plannedForThisWeek: Planned for This Week
+      plannedForWeekOf: Planned for Week of {date}
+      thisweek: This Week
+      unscheduled: No Week Planned
+      weekOf: Week of {date}
+    scheduleViewList:
+      createNewWork: Create New Work
+      emptyStateBody: Please try another filter.
+      emptyStateHeader: There is no repeating work
+      name: NAME
+      repeats: REPEATS
+      until: UNTIL
+    settingColumnsPanel:
+      listViewColumsList:
+        assignee: Assignee
+        budgetAmount: Budget (Amount)
+        budgetCurrency: Budget {currencyCode}
+        budgetHrs: Budget Hrs
+        client: Client
+        clientGroup: Client Group
+        clientId: Client Id
+        completed: Completed
+        deadline: Deadline
+        due: Due
+        instatus: In Status
+        name: Name
+        progress: Progress
+        repeat: Repeat
+        start: Start
+        status: Status
+        timeOnlyListLabel: Time Tracked
+        type: Type
+      title: Columns
+    taskCreation:
+      taskBudgetInProgres: Tasks & budget creation in progress
+      taskBudgetWillBeCreated: Tasks & Budget Will Be Created On {formatted}
+      taskInProgress: Task creation in progress
+      taskWillBeCreated: Tasks Will Be Created On {formatted}
+    viewSettingsBar:
+      addWork: Add Work
+    workViewList:
+      actualCurrency: Actual ({currencyCode})
+      actualHrs: Actual (hrs)
+      assignee: Assignee
+      budgetCurrency: Budget ({currencyCode})
+      budgetHrs: Budget (hrs)
+      budgetProgress: Budget Progress
+      client: Client
+      clientId: Client ID
+      completed: Completed
+      deadline: Deadline
+      due: Due
+      feeType: Fee Type
+      fees: Fees ({currencyCode})
+      instatus: In Status
+      name: Name
+      of: of
+      plannedWeek: Planned Week
+      progress: Progress
+      relatedClientGroup: Related Client Group
+      remainingCurrency: Remaining ({currencyCode})
+      remainingHrs: Remaining (hrs)
+      repeat: Repeat
+      start: Start
+      status: Status
+      taxReturnStatus: Tax Return Status
+      timeTracked: Time Tracked
+      type: Type
+      workViewListItem:
+        budgetProgressTooltipLabel: '{percentageUnclipped}% of budget used'
+        checklistProgress: Checklist progress
+        notifications:
+          assigneeChanged: Assignee changed
+          failedToUpdateMyWeekSchedule: Failed to Update My Week Schedule
+          myWeekScheduleUpdated: My Week Schedule Updated
+          workStartDateChanged: Work start date changed
+          workStatusChanged: Work status changed
+          workStatusCouldNotBeChanged: Work status could not be changed
+    workViewStat:
+      actual: Actual
+      budget: Budget
+      fees: Fees
+      remaining: Remaining
+      timeTracked: Time Tracked
+      workItems: '{workCardCount,plural, =0 {Work Item} one {Work Item} other {Work Items}}'
+  createWorkTemplate: Create Work Template
+  deadlines:
+    showDeadline: Show Deadline
+    showDescription: Show Description
+    title: Deadline
+  deleteClientGroupModal:
+    deleteClientGroup: Delete Client Group
+  deleteClientModal:
+    actionLabel: Delete Contact
+    blockingDescription: Draft invoices exist for this contact. Delete draft invoices to delete contact.
+    deletedWarningMessage: Delete {fullName} from Karbon. All work for {fullName} will also be deleted. Please note this can not be undone.
+    hasExternalClientMessage: >-
+      This person is a client in Xero Practice Manager, Deleting them from Karbon will archive the client and any jobs
+      relating to them in Xero Practice Manager.
+    hasExternalContactMessage: >-
+      This person is a contact in Xero Practice Manager, Deleting them from Karbon will delete the contact in Xero
+      Practice Manager.
+    title: Delete Contact
+  deleteOrganisationModal:
+    actionLabel: Delete Contact
+    blockingDescription: Draft invoices exist for this contact. Delete draft invoices to delete contact.
+    externalContact: >-
+      {fullName} is a client in {externalProviderName}. Deleting them from Karbon will archive the client and any jobs
+      relating to them in {externalProviderName}.
+    internalContact: Delete {fullName} from Karbon. All work for {fullName} will also be deleted. Please note this can not be undone.
+    title: Delete Contact
+  details:
+    connectedApplications: Connected applications
+    createAndConnect: Create and connect to new job in {externalProviderName}
+    hasRelatedContacts:
+      email: Email
+      name: Name
+      organization: Organization
+      role: Role
+    keyDates: Key Dates
+    noDocumentsMessage: There are no documents for this work.
+    noOtherContactInvolved: There are no other contacts involved in this work.
+    workEditKeyDates:
+      earlier: earlier
+      later: later
+      leaveTaskDueDatesAsIs: Leave task due dates as is.
+      messages:
+        dueDateHasChanged: >-
+          Move task due dates {daysOffsetDue,plural, one {# day} other {# days}} {daysOffsetDueDirectionBoolean,select,
+          true {earlier} other {later} }.
+        dueDateOffsetLabel: >-
+          Moved {daysOffsetDue,plural, one {# day} other {# days}} {daysOffsetDueDirectionBoolean,select, true {earlier}
+          other {later} }
+        startDateHasChanged: >-
+          Move task due dates {daysOffsetStart,plural, one {# day} other {# days}}
+          {daysOffsetStartDirectionBoolean,select, true {earlier} other {later} }.
+        startDateOffsetLabel: >-
+          Moved {daysOffsetStart,plural, one {# day} other {# days}} {daysOffsetStartDirectionBoolean,select, true
+          {earlier} other {later} }
+      workKeyDates: Work Key Dates
+    workItemBasics:
+      baseWorkTemplate: Base work template
+      basics: Basics
+      billTo: Bill To
+      description: Description
+      externalName: External Name
+      repeatsSwagTitle:
+        onThePrettyDayOfTheMonth: (on the {prettyDay} of the month)
+        repeatsOnDate: Repeats {adverb} {onDate}
+      templateDeleted: '{sourceWorkTemplateTitle} (Deleted)'
+    workItemBasicsEdit:
+      allWork: All Work
+      feeToolTipLabel: >-
+        Fees cannot be edited on work in repeating schedules until the tasklist has been created. To create the
+        tasklist, go to Tasks in this work item.
+      lockedText: User does not have permission to change this field
+      onlyThisWork: Only This Work
+      pageTitle: Basic Details
+      renameIsLockedTooltip: '{integrationProductName} Templates can not be duplicated, deleted or renamed.'
+      scheduleMessage:
+        isBasicFeesMode: >-
+          Would you like to update the description, work type and fees for this work, or for this and all work in the
+          schedule?
+        regular: >-
+          Would you like to update the description and work type for this work, or for this and all work in the
+          schedule?
+      workPartOfSchedule: This work is part of a schedule
+    workTeamDetails:
+      involvementInWork: Involvement in Work
+      noPeopleInvolvedInThisWork: There are no people involved in this work.
+      notifications:
+        failedToUpdateMyWeekSchedule: Failed to Update My Week Schedule
+        myWeekScheduleUpdated: My Week Schedule Updated
+      plannedWeek: Planned Week
+      roles: Roles
+      teamMember: Team Member
+      workTeam: Work Team
+    workTeamDetailsEdit:
+      notifications:
+        bulkReassignFailed: Bulk reassign failed
+        couldNotAddTeamMembers: Could not add team members
+        couldNotReassignWork: Could not reassign work
+        isAlreadyOnTheWorkTeam: This colleague is already on the work team
+        nameCouldNotBeRemoved: '{name} could not be removed'
+        nameWasRemoved: '{name} was removed'
+        teamMembersAdded: Team members added
+      pageTitle: Work team
+      workTeamEditIntro: >-
+        Colleagues with estimated time or assigned tasks, emails or notes relating to this work are automatically added
+        to the work team. You can also manually add colleagues to the work team.
+  editSchedule:
+    freqDescriptionForInstances: '{freqDescription} for {count, plural, =1 {1 instance} other {# instances}}'
+    freqDescriptionUntilEndOn: '{freqDescription} until {endOn}'
+  externalServiceSync:
+    client: client
+    connectingNow: Connecting now
+    contact: contact
+    job: job
+    lastUpdated: Last updated {time}
+    notifications:
+      syncFailed: Sync failed
+      updateFailed: Update failed
+      updateFromName: Update from {name}
+      updateNow: Update now
+    providerUnavailable: '{providerName} - Unavailables'
+    unavailable: '- Unavailable'
+    viewClient: View Client
+    viewType: View {itemType} in {name}
+  fees: Fees
+  for: 'For:'
+  frequencyDescription:
+    everyCountDays: Every {count} days
+    everyCountMonths: Every {count} months
+    everyCountWeeks: Every {count} weeks
+    everyCountYears: Every {count} years
+    everyDay: Every day
+    everyFortnight: Every fortnight
+    everyMonth: Every month
+    everyQuarter: Every quarter
+    everyWeek: Every week
+    everyYear: Every year
+    twiceAMonth: Twice a month
+  header:
+    addTasks: Add Tasks
+    invitePending: Invite Pending
+    unassigned: Unassigned
+  heroPanel:
+    changeClient: Change Client
+    copyTasks: Copy Tasks
+    createNew: CREATE NEW
+    editRepeatingWork: Edit Repeating Work
+    importTasks: Import Tasks
+    markAsCompleted: Mark as Completed
+    moveToInProgress: Move to In Progress
+    printClientRequestSummary: Print Client Request Summary
+    printClientRequestSummaryToast: Client Requests Summary Created
+    resetWork: Reset Work
+    saveAsTemplate: Save as Template
+    setupRepeatingWork: Set Up Repeating Work
+  newWorkForm:
+    KarbonTemplateLibrary: Karbon Template Library
+    assignedTo: Assigned to
+    createNewJobIn: Create new job in {externalProviderName}
+    createWork: Create Work
+    createWorkFromTemplate: Create Work From Template
+    creatingWork: Creating work
+    description: Description
+    dontStartBlank: <b>Don’t start with a blank canvas.</b> Explore and download best-practice templates from the
+    dontStartBlankEnd: .
+    noPermissionHeading: Unable to Create Work
+    noPermissionMessage: You don’t have permission to create work. Contact your practice administrator to request access
+    notifications:
+      couldNotCreateWork: Could not create work
+      workCreated: Work created
+    showDescription: Show Description
+    useATemplate: Use a Template
+    workTemplate: Work template
+    workTitle: Work title
+    workType: Work type
+  newWorkFormBulk:
+    daysAfterStartDate: Days after start date
+    every: Every
+    lastInstanceDue: Last instance due
+    lastInstanceDueDateTitle: Use a different due date for last repeat instance
+    moveStartDate: Move work start / due dates to the Friday before if they fall on a weekend
+    noDueDate: No due date
+    repeatExtension:
+      days: days
+      months: months
+      quarters: quarters
+      semiMonthly: semi-months
+      weeks: weeks
+      years: years
+    repeatFrequency:
+      day: Daily
+      month: Monthly
+      none: None
+      quarter: Quarterly
+      semimonth: Semi-monthly
+      week: Weekly
+      year: Yearly
+    validationColleague: Colleague required
+    validationTemplate: Work Template required
+  overviewPage:
+    exportListMenu:
+      exportSchedules: Repeating Work Schedules
+      exportWork: All Work In This View
+    filterBar:
+      editSavedViews: Edit Saved Views
+      notifications:
+        viewCouldNotBeRenamed: View could not be renamed
+        viewCouldNotBeSaved: View could not be saved
+        viewRenamed: View Renamed
+        viewSaved: View Saved
+      savedViews: Saved Views
+    importTout:
+      importClientData: Import client data
+      question: Would you like to see all your client work in here? We can import your client data for you.
+    kanbanBoard:
+      createNewWork: Create New Work
+      emptyStateBody: Please try reducing the number of filters.
+      emptyStateHeader: There is no work matching the selected filters
+      kanbanBin:
+        alsoWorkingOn: Also working on
+        binTitles:
+          completedEarlier: Completed Earlier
+          completedIn: Due In {formattedDate}
+          completedThisMonth: Completed This Month
+          completedThisWeek: Completed This Week
+          completedToday: Completed Today
+          completedYesterday: Completed Yesterday
+          dueIn: Due In {formattedDate}
+          dueLater: Due Later
+          dueNextMonth: Due Next Month
+          dueNextWeek: Due Next Week
+          dueThisMonth: Due This Month
+          dueThisWeek: Due This Week
+          dueToday: Due Today
+          noDueDate: No Due Date
+          overdue: Overdue
+          started: Started
+          startingIn: Starting In {formattedDate}
+          startingLater: Starting Later
+          startingNextMonth: Starting Next Month
+          startingNextWeek: Starting Next Week
+          startingThisMonth: Starting This Month
+          startingThisWeek: Starting This Week
+        emptyStateMessage:
+          assignee: No work for assignee.
+          client: No work for client.
+          clientGroup: No work for client group.
+          deadlineDate: No deadlines.
+          dueDate: No work for this due period.
+          startDate: No work for this start period.
+          status: No work for this status.
+        kanbanCard:
+          budgetLabel: 'Budget: {budget}'
+          budgetLabelNone: 'Budget: None'
+          dragAndDropNotSupported: Drag and Drop not supported on this view of Kanban
+          estimatedTimeLabel: 'Estimated Time: {estimatedTime}'
+          estimatedTimeLabelNone: 'Estimated Time: None'
+          feeType: 'Fee Type: {billingTypeFormatted}'
+          fees: 'Fees: {totalFeeFormatted}'
+          frequencyDescriptionLabel: 'Repeat: {frequencyDescription}'
+          frequencyDescriptionLabelNone: 'Repeat: None'
+          itemsAssignedCountLabel: '{count, plural, =0 {No items assigned} =1 {# item assigned} other {# items assigned}}'
+          relatedClientGroup: 'Related Client Group: {clientGroupName}'
+          start: Start
+          started: Started {date}
+          starting: Starting {date}
+          taxReturn: 'Tax Return: {taxReturnStatus}'
+          timeTracked: 'Time Tracked: {time}'
+          timeTrackedNone: 'Time Tracked: None'
+          timelineActivity: 'Timeline Activity: '
+          workTypeLabel: 'Type: {workTypeLabel}'
+          workTypeLabelNone: 'Type: None'
+        noWorkForThisBin: No work for this bin.
+        stats:
+          Fees: 'Fees: {totalFeeFormatted}'
+          allocatedTo: 'Allocated to {title}:'
+          budgetHrs: 'Budget Hrs: {budgetMinutesFormatted}'
+          capacityPerWeek: Capacity per week
+          notSet: Not Set
+          totalTimeTracked: 'Total Time Tracked: {actualMinutes}'
+          totalTimeTrackedNone: 'Total Time Tracked: None'
+        workCardCountTotalLabel: '{workCardCountTotal, plural, =0 {} =1 {# Work Item} other {# Work Items}}'
+      moveChecklistDatesModal:
+        leaveDueDatesAsIs: Leave due dates as is.
+        leaveTaskDueDatesAsIs: Leave task due dates as is.
+        showStartDateChecklistOptions:
+          moveAnyDueDatesOfTasks: Also move any due dates of tasks in this work {days,plural, one {# day} other {# days}}.
+          moveDueDateForTheWork: Also move due date for the work {days,plural, one {# day} other {# days}}.
+          moveTheDueDatesForTheWorkAndTasks: Also move the due dates for the work and tasks {days,plural, one {# day} other {# days}}.
+          workDueDateWillBeMoved: The work due date will be moved {days,plural, one {# day} other {# days}} to {formattedDate}.
+          workStartDateWillBeMoved: The work start date will be moved {days,plural, one {# day} other {# days}} to {formattedDate}.
+        updateWorkDueDate: Update work due date
+        updateWorkStartDate: Update work start date
+      notifications:
+        deadlineDateUpdated: Deadline updated
+        dueDateUpdateFailed: Due date update failed
+        dueDateUpdated: Due date updated
+        failedToUpdateMyWeekSchedule: Failed to Update My Week Schedule
+        myWeekScheduleUpdated: My Week Schedule Updated
+        reassigned: Reassigned
+        reassignedFailed: Reassigned failed
+        startDateUpdated: Start date updated
+        updateFailed: Update Failed
+        workReassignFailed: Work reassign failed
+        workReassigned: Work reassigned
+        workStatusChanged: Work status changed.
+        workStatusUnavailable: Work status unavailable for this work type.
+        workStatusUpdateFailed: Work status update failed
+      reassignItemsInWork: Reassign Items In Work
+    pageTitle: Work
+    tooManuBinsError:
+      description: The filters you’ve selected result in too many columns for Kanban to display. Please change your Kanban options.
+    workViewSettings:
+      budgetsListLabel: Budget Hrs
+      columns: Columns
+      display: Display
+      displayColumnTotals: Display Column Totals
+      displayCompletedWork: Display Completed Work
+      displayEmptyColumns: Display Empty Columns
+      listViewColumsList:
+        assignee: Assignee
+        budget: Budget
+        budgetAmount: Budget (amount)
+        budgetTime: Budget Hrs
+        client: Client
+        clientGroup: Related Client Group
+        completed: Completed
+        deadline: Deadline
+        due: Due
+        feeType: Fee Type
+        instatus: In Status
+        myWeekDate: Planned Week
+        name: Name
+        progress: Progress
+        recurrenceFrequency: Repeat
+        start: Start
+        status: Status
+        timelineActivity: Timeline Activity
+        totalFee: Fees
+        type: Type
+      mode: Mode
+      setupFilterToggles:
+        taxreturnstatus: Tax Return Status
+      sortFilters:
+        assignee: Assignee
+        client: Client
+        clientGroup: Related Client Group
+        completedDate: Completed Date
+        deadlineDate: Deadline
+        dueDate: Due Date
+        instatus: In Status
+        startDate: Start Date
+        status: Status
+      timeOnlyListLabel: Time Tracked
+      tooltipLabel: Hidden columns
+      viewFilters:
+        kanban: Kanban
+        list: List
+  planWorkFor: Plan Work For
+  reassignTemplate:
+    actions:
+      assignNow: Assign now
+      doThisLater: Do this later
+    clientHasNoEmailAddress: This client does not have an email address
+    clientTasks: Client Tasks
+    clientTasksDescription: This work template contains Client Tasks. Please select who they will be sent to.
+    loading: Creating work
+    roleAssignment: Role Assignment
+    roleAssignmentDescription: Choose a colleague for each role so unassigned items can be assigned to them.
+  recurrenceFrequencyTranslation:
+    asAdverb:
+      daily: Daily
+      fortnightly: Fortnightly
+      monthly: Monthly
+      quarterly: Quarterly
+      semiMonthly: Semi-Monthly
+      weekly: Weekly
+      yearly: Yearly
+    asPlural:
+      days: Days
+      months: Months
+      weeks: Weeks
+      years: Years
+  repeatSettings:
+    companiesHouse:
+      option: Based on Companies House Dates
+      optionDescription: Repeat settings based on Companies House Dates
+      workCreation: Work, tasks and budgets will be created based on Companies House dates.
+    existingEngagementBanner: Repeat settings can’t be changed because this work item is part of an engagement.
+    forever: forever
+    freqDescriptionUntilEndOn: '{freqDescription} until {endOn}'
+    pageTitle: Repeat Settings
+    repeatScheduleForm:
+      allCreationOptions:
+        1day: 1 Day Before Work Start Date
+        1month: 1 Month Before Work Start Date
+        1week: 1 Week Before Work Start Date
+        1year: 1 Year Before Work Start Date
+        2weeks: 2 Weeks Before Work Start Date
+        2years: 2 Years Before Work Start Date
+        3months: 3 Months Before Work Start Date
+        6months: 6 Months Before Work Start Date
+      automatorWarningMesage:
+        default: >-
+          In future work items, tasks affected by these Automators will have no assignment until the Automator is
+          triggered
+        hasAssigneeAndDueDate: >-
+          In future work items, tasks affected by these Automators will have no due date or assignment until the
+          Automator is triggered
+        hasDueDateAutomator: >-
+          In future work items, tasks affected by these Automators will have no due date until the Automator is
+          triggered
+      automatorWarningTitle:
+        assigneeAndDueDate: There are Automators in this work item that control task due dates and assignments.
+        hasAssigneeAutomator: There are Automators in this work item that control task assignments.
+        hasDueDateAutomator: There are Automators in this work item that control task due dates.
+      avoidWeekends: Avoid Weekends
+      avoidWeekendsDescription: Move work start / due dates to the Friday before if they fall on a weekend
+      dayOf: day of
+      days: Days
+      deadlineDateModal:
+        deadlineDateMethods:
+          deadlineDateMinus: Work Deadline Date minus XX days
+          deadlineDatePlus: Work Deadline Date plus XX days
+          workDeadlineDate: Work Deadline Date
+        deadlineDatePlaceholder: Deadline Date Placeholder
+        workDeadlineMinus: Work Deadline Date minus
+        workDeadlinePlus: Work Deadline Date plus
+      deleteModal:
+        deletingWorkSchedule: Deleting work schedule
+        description: All future work generated by this repeating schedule will be deleted.
+      deleteRepeat: Delete Repeat
+      dueDateModal:
+        dueDateMethods:
+          dueDateMinus: Work Due Date minus XX days
+          dueDatePlus: Work Due Date plus XX days
+          workDueDate: Work Due Date
+        dueDatePlaceholder: Due Date Placeholder
+        workDueMinus: Work Due Date minus
+        workDuePlus: Work Due Date plus
+      folderNameEditor:
+        folderStructure: Folder Structure
+        placeholder: Choose a placeholder below to create the dynamic folders.
+        title: >-
+          Choose how your repeating folders will be organized. {appName} will create a new folder unless it already
+          exists.
+      formatPillTitleString:
+        missing: Missing
+        nextTitle: Next {title}
+        previousTitle: Previous {title}
+      lastDayOfMonth: Last day of month
+      monthAfterStartMonth: month after start month
+      myWeekOptionHasBeenChanged: Work in this series that is already planned will not be updated
+      myWeekOptions:
+        WeekOfWorkDueDate: Week of Work Due Date
+        unscheduled: Don’t Add Planned Week
+        weekOfWorkStartDate: Week of Work Start Date
+      noDueDate: No due date
+      noStartDate: No Start Date
+      recurrenceDurations:
+        endDate: End Date
+        forever: Forever
+        instances: Instances
+        instancesSummary: '{count,plural, =1 {1 instance} other {# instances}}'
+        numberOfInstances: Number of Instances
+        setEndDate: Set End Date
+      repeatEvery: Repeat Every
+      repeatPeriodDateModal:
+        repeatPeriodMethods:
+          repeatPeriodDate: Repeat Period Date
+          repeatPeriodMinus: Previous Repeat Period Date
+          repeatPeriodPlus: Next Repeat Period Date
+        repeatPeriodPlaceholder: Repeat Period Placeholder
+        workDueMinus: Work Due Date minus
+        workDuePlus: Work Due Date plus
+      repeatPreview: Repeat Preview
+      repeatUntil: Repeat Until
+      saveButtonLabel:
+        existingSchedule: Update Repeating Work
+        notExistingSchedule: Create Repeating Work
+      scheduleDueDateMethod:
+        companiesHouseAccountsDueDate: Accounts due
+        companiesHouseConfirmationStatementDueDate: Confirmation statement due
+        dayOf2nd3rdMonthAfterStartMonth: Day of (2nd, 3rd, ...) month after start month
+        dayOfFollowingMonth: Day of following month
+        dayOfTheMonth: Day of the month
+        daysAfterStartDate: Days after start date
+        daysAfterStartDatePlural: '{dueDateDays,plural, =1 {Day} other {Days}} after start date'
+        lastDayOfMonth: Last day of month
+        noDeadlineDate: No deadline date
+        noDueDate: No due date
+        ordinalLabel: Day of {scheduleDueDateMonthMultipleLabel} month after start date
+      scheduleEndDateLabel:
+        forever: Forever
+      startDateModal:
+        addPlaceholder: Add Placeholder
+        dateFormat: Date Format
+        dateFormula: Date Formula
+        startDateMethods:
+          startDateMinus: Work Start Date minus XX days
+          startDatePlus: Work Start Date plus XX days
+          workStartDate: Work Start Date
+        startDatePlaceholder: Start Date Placeholder
+        workStartMinus: Work Start Date minus
+        workStartPlus: Work Start Date plus
+      startingOn: Starting On
+      theNextWorkItems: 'The next work items in the series will be:'
+      unableToMoveWorkStartDate: Unable to move work start dates as it may move work into previous year.
+      whatsIncluded:
+        lastStatement: >-
+          If you are using Tasklist Automators to control task assignments and/or task due dates, then those Tasks will
+          be created blank, and updated when the Automator is triggered.
+        subtitle: >-
+          Future instances of this work will automatically contain some information from the previous work item in the
+          schedule, including:
+        tasks: Tasks and task descriptions (including uploaded files)
+        timeEstimatesAndBudget: Time estimates and budget
+        whatIsIncludedInThisRepeatingWork: What is Included in This Repeating Work?
+        workItemDescription: Work item description
+      workCreation: Work Creation
+      workIsDue: Work Is Due
+      workPlannedDescritptionOne: This work will be planned for the Work Assignee when the work is created.
+      workPlannedDescritptionTwo: It will be planned for the rest of the Work Team when the Tasks and Budget are created.
+      workTitleEditor:
+        helpText: Choose the placeholders below to choose dynamic names.
+        repeatInstanceCount: Repeat Instance Count
+        repeatPeriod: Repeat Period
+        title: Work Title
+    repeatSettings: Repeat Settings
+    repeatingWork: Repeating Work
+    repeats: Repeats
+    scheduleSummary:
+      avoidWeekendsDescription: If the start / due date fall on a weekend they will be shifted to the Friday before.
+      creation: Creation
+      myWeekScheduleFormated:
+        noPlannedWeek: No Planned Week
+        weekOfWorkDueDate: Week of Work Due Date
+        weekOfWorkStartDate: Week of Work Start Date
+      scheduleDueDateLabel:
+        daysAfterStartDate: '{dueDateDays,plural, =1 {1 day} other {# days}} after start date'
+        ordinalDayOfFollowingMonth: '{ordinal} day of following month'
+        ordinalDayOfTheMonth: '{ordinal} day of the month'
+        ordinalDayOfTheMultipleOrdinalMonthAfterStartDate: '{ordinal} day of the {multipleOrdinal} month after start date'
+      scheduleEndDateLabel: until {date}
+      taskCreatedRuleLabel: '{multiple} {units} before work starts'
+      workCreatedRuleLabel: '{multiple} {units} before it starts'
+      workTitle: Work title
+    showCreateScheduleError:
+      description: Unable to create repeating work that results in the creation of more than 15 work items starting in the past.
+      errorTitle: Could Not Create Repeating Work
+    starting: Starting {startDate}
+    startingCompaniesHouseDate: Start Date Set on Work Creation <br> Deadline Set on Work Creation
+    startingDeadline: Starting {startDate} - Deadline {deadlineDate}
+    startingDue: Starting {startDate} - Due {dueDate}
+    startingDueCompaniesHouseDate: Start Date Set on Work Creation <br> Due Date Set on Work Creation <br> Deadline Set on Work Creation
+    startingDueDeadline: Starting {startDate} - Due {dueDate} <br> Deadline {deadlineDate}
+    untilDate: '{workItemSchedule,select, true {until {date}} other {until forever} }'
+  resetWorkModal:
+    budget: Budget
+    changeSendDates: Change the send dates on the {workOrTemplateLabelLong}
+    changeWhenTheTasksAreCreated: Change when the tasks are created
+    clientTaskWarningText: Any Client Task already sent will need to be sent again after resetting this work.
+    createdTooEarly: the tasks in this repeating work are created {taskCreationPeriodLabel} before the start date.
+    estimatedTime: Estimated Time
+    resetTo: 'RESET TO:'
+    resetWork: Reset Work
+    resettingTasksFailed: Resetting tasks failed.
+    sendDateTooEarly: >-
+      Client Tasks in the {workOrTemplateLabel} you are resetting to have a send date that is earlier than the date the
+      tasks will be created.
+    solveOptions: 'To resolve this you can either:'
+    tasks: Tasks
+    tasksResetToTemplate: Tasks reset to template
+    template: template
+    templateOptionLabel: The ‘{workTemplateTitle}’ Work Template
+    theFollowingDetailsWillBeReset: 'The following details will be reset:'
+    thePreviousWorkItem: The Previous Work Item
+    theWorkTemplateTitleTemplate: The ‘{workTemplateTitle}’ Template
+    work: work
+    workItem: work item
+    workTeam: Work Team
+    workTemplate: work template
+  resourcePlanning: Resource Planning
+  savedViews:
+    description: These are your saved Work views. Drag and drop to reorder and click to rename or delete.
+    descriptionEmpty: There are no saved Work views.
+  scheduleToWeekModal:
+    allAssignedTasksCompleted: All assigned tasks completed
+    nextWeekName: Next Week ({name})
+    plan: Plan
+    planForWorkTeam: Plan for Work Team
+    thisWeekName: This Week ({name})
+    title: Plan Work
+    unassignedInfo: This work has {count} unassigned {count,plural, one {task} other {tasks}} that won’t be planned.
+    weekStarting: Week Starting
+    workScheduleDateInfo: This work is part of a Repeat Series. Any unassigned tasks will be planned for the week of {workScheduleDate}.
+  scheduledWorkModal:
+    allInstances: All instances
+    intro: This work item is part of a schedule.
+    optionsHeader: Apply changes to
+    thisInstance: This instance
+    updateScheduledWork: Update Scheduled Work
+  smartSuggestions:
+    suggestedWork: Suggested Work
+  status:
+    completed: Completed
+    due: Due
+    inProgress: In Progress
+    planned: Planned
+    readyToStart: Ready to Start
+    waiting: Waiting
+  subTabs:
+    details: Details
+    documents: Documents
+    tasks: Tasks
+    taxReturn: Tax Return
+    timeAndBudget: Time & Budget
+    timeLine: Timeline
+    work: Work
+  summary:
+    workSummary: Work Summary
+  tasks: Tasks
+  tasksAndAutomators: Tasks and Automators
+  toDo:
+    assignToColleague: Assign to colleague
+    assigned: Assigned
+    assignmentsEmptyStateBody: Any Work, Tasks, Notes or Emails you assign will show here.
+    assignmentsEmptyStateTitle: No Assigned Items
+    changeStatus: Change status
+    changeTodoDate: Change to-do date
+    setDueDate: Set due date
+    taskMovedTo: Task moved to {label}
+    unassigned: Unassigned
+  unassigning: Unassigning
+  workItem:
+    archived: >-
+      The {externalProviderName} job synchronized with this piece of work will be archived in {externalProviderName} if
+      you delete this piece of work.
+    banner:
+      bannerText: Connect this work item to your {connectedDMS} to save, share and organise your files right from {appName}.
+    checklistCompletedBreakdown: '{checkableItemCompletedCount} of {checkableItemCount} completed'
+    completedDate: Completed {date}
+    completedTasks: Completed Tasks
+    completedThisMonth: Completed This Month
+    completedThisWeek: Completed This Week
+    completedThisYear: Completed This Year
+    completedToday: Completed Today
+    copyTasksToAnotherPieceOfWork: Copy tasks to another piece of work
+    countDays: '{days} Days'
+    daysEarly: '{days,plural,=1 {1 Day} other {# Days}} Early'
+    daysLate: '{days,plural,=1 {1 Day} other {# Days}} Late'
+    daysLeft: Days Left
+    daysOverdue: '{days,plural,=1 {1 Day} other {# Days}} Overdue'
+    daysTillDue: '{days} Days Till Due'
+    daysUsed: Days Used
+    deleteModalBlockingDescription: A draft invoice exists for this work. Delete the draft invoice to delete this work.
+    deleteModalTitle: Delete Work
+    deleteNameFromKarbon: Delete {name} from Karbon.
+    deleteWork: Delete Work
+    dueDate: due {date}
+    dueThisMonth: Due This Month
+    dueThisWeek: Due This Week
+    dueToday: Due Today
+    dueTomorrow: Due Tomorrow
+    importTasksFromAnotherPieceOfWork: Import tasks from another piece of work
+    notifications:
+      clientUpdated: Client updated
+      couldNotCreateWorkItems: Could not create work items
+      couldNotImportFromWork: Could not import from work
+      couldNotSendInvite: Could not send invite
+      inviteResent: Invite resent
+      inviteSentToName: Invite sent to {name}
+      tasksReset: Tasks reset
+      workItemsCountWorkItemsCreated: '{workItemsCount} work items created'
+      workItemsCreatedSuccessfully: Work items created successfully
+    overdue: Overdue
+    sentToProviderName: Sent to {providerName}
+    tasksToDo: Tasks To-do
+    today: Today
+    tomorrow: Tomorrow
+  workItemPrivate:
+    grantAccess: If you need access, please ask one of the client team members to grant you access.
+    thisWorkIsPrivate: This work is private
+  workItemRepeatSettings:
+    onThePrettyDayOfTheMonth: (on the {prettyDay} of the month)
+    repeatSettings: Repeat Settings
+    repeatingFrequency: Repeating Frequency
+    repeatingWork: Repeating Work
+    repeatsUntil: Repeats Until
+    viewRepeatingWork: View Repeating Work
+  workNamingConvention: Work Naming Convention
+  workPrivacySettings:
+    privacySettingsUpdated: Privacy settings updated
+    radioLabelEveryone: Everyone at {tenantName}.
+    radioLabelTeam: Just the client team for {clientFullName} and work team for {title}.
+    radioLabelVisibility: Still see that the work exist in Karbon but not be able to access any details related to the work.
+    radioLabelVisibilityHidden: Not even know the work exists in Karbon.
+  workPrivacySummary:
+    forPrivateHiddenContactWork: >-
+      This work is for a private contact. This work is only accessible to the work team and those with access to the
+      client. Colleagues without access will not even know the work exists in Karbon.
+    forPrivateHiddenContactWorkWithName: >-
+      This work is for {linkedName}, a private contact. This work is only accessible to the work team and those with
+      access to {linkedName}. Colleagues without access will not even know the work exists in Karbon.
+    forPrivateHiddenWorkWithName: >-
+      This work is only accessible to the work team and those with access to {linkedName}. Colleagues without access
+      will not even know the work exists in Karbon.
+    forPrivateVisibleContactWorkWithName: >-
+      This work is for {linkedName}, a private contact. This work is only accessible to the work team and those with
+      access to {linkedName}. Colleagues without access will still see that the contact and their work exists in Karbon
+      but will not be able to access any details and communications related to the work.
+    forPrivateVisibleWorkWithName: >-
+      This work is only accessible to the work team and those with access to {linkedName}. Colleagues without access
+      will still see that the contact and their work exists in Karbon but will not be able to access any details and
+      communications related to the work.
+    forPublic: This contact’s details, work and communication are accessible to everyone at {name}.
+    hidden: Hidden.
+    privacy: Privacy
+    private: Private.
+    public: Public.
+  workTeamEditHeader:
+    alreadyAdded: '{count} ALREADY ADDED TO THE WORK TEAM'
+    hasMembers: '{name} - {userCount} MEMBERS'
+    hasOnlyOneMember: '{name} - 1 MEMBER'
+    tooltipLabel:
+      one: 'The following colleague has already<br>been added to this work team:'
+      severals: 'The following colleagues have already<br>been added to this work team:'
+  workTeamEditMember:
+    assign: Assign
+    changeAssignee: Change Assignee
+    reassign: Reassign
+    unassigned: Unassigned
+  workTeamMemberReassignModal:
+    notifications:
+      couldNotReassignTeamMember: Could not reassign team member
+    removePerson: 'Remove {name} from {workTitle} and reassign their tasks, notes, email assignments and estimated time to:'
+  workTemplate:
+    applyChanges: >-
+      When you’re ready, publish these changes to apply them to the template. Once published any new work created using
+      the template will receive the changes.
+    deleteConfirmation: Are you sure you want to delete this template?
+    deleteTemplate: Delete Template
+    details: Details
+    discard: DISCARD
+    draftTemplate: Draft template
+    editedDate: Edited
+    intuitTemplate: Intuit Template
+    intuitTemplatesImmutable: Intuit Templates can not be duplicated, deleted or renamed.
+    lastUsedDate: Last used
+    notifications:
+      changesDiscarded: Changes discarded
+      couldNotDeleteTemplate: Could not delete template
+      couldNotDuplicateTemplate: Could not duplicate template
+      notUsed: Has not been used to create work yet
+      published: Work template published
+      templateDeleted: Template deleted
+      templateDuplicated: Template duplicated
+      used: Used to create work {count,plural, =1 {# time} other {# times}}
+      workExisting: A work template already exists with this title.
+    productImmutable: '{product} Templates can not be duplicated, deleted or renamed.'
+    productTemplate: '{product} Template'
+    publish: PUBLISH
+    templateCouldNotBeFound: Template could not be found
+    thereAreNoDocumentsForThisWorkTemplate: There are no documents for this work template.
+    unpublishedChanges: Unpublished Changes
+  workTemplateView:
+    browseTemplateLibrary: Browse Template Library
+    messageTout:
+      exploreTemplates: Explore Templates
+      message: Discover 300+ best-practice workflow templates. Compiled by experts, free for your firm.
+    notifications:
+      alreadyExists: A work template already exists with this title.
+      workTeamChangesCouldNotBeSaved: Work Team changes could not be saved
+      workTeamUpdated: Work Team Updated
+      workTemplateCouldNotBeCreated: Work template could not be created.
+    pageTitle: Work Templates
+    workTemplateList:
+      columnHeaderData:
+        dateCreated: Date Added
+        lastEdited: Last Edited
+        name: Name
+        publishedBy: Last Published By
+        timesUsed: Times Used
+      modalCreateWorkTemplate:
+        creatingWorkTemplate: Creating Work Template
+        workDescription: Work Description
+        workTitle: Work Title
+  workType: Work Type
